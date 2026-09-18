@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Gerador de Fun\u00e7\u00f5es Agilent 33220A",
+      "description": "Blocos de driver para gerador de fun\u00e7\u00f5es arbitr\u00e1rio Agilent 33220A (20 MHz)."
+    },
+    "es": {
+      "name": "Generador de Funciones Agilent 33220A",
+      "description": "Bloques de controlador para generador de funciones arbitrario Agilent 33220A (20 MHz)."
+    }
+  },
+  "hashes": {
+    "driver.py": "b23b75a27cff0f5ff004720d7bc5b2a0a4fe47ed94a78e6560a95589058cb3bc",
+    "blocks.py": "3424225e347c0533fbc91288895fc6176c33a2602e93bb74dd5fd8f54de05388"
+  }
 }

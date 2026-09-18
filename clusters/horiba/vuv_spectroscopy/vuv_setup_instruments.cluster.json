@@ -640,5 +640,45 @@
     ]
   },
   "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
-  "signature": "tAl06n+jPG8tdXpuVE/MUl7+tToR4qjsSAnBKXtEHW/vCh2EN/W0WNjkQaI3WCIj/No9pbnfIcIH4Wn6ZxR0Cw=="
+  "signature": "5+AA3Z0PVopQUXOWG8dFWjKOlmpF9ALPKhY0KOw5mJpq0OajBh98iGmW/KoHW+yJ0i+ptm4GuBMfURWqrfPWCA==",
+  "i18n": {
+    "pt-BR": {
+      "display_name": "Configurar Instrumentos VUV Horiba",
+      "description": "Inicializa o Monocromador VUV Horiba (MonoID, Torrete de Redes, Fendas) e o Oscilosc\u00f3pio Tektronix MDO com modo de Simula\u00e7\u00e3o selecion\u00e1vel.",
+      "category": "Clusters/Horiba",
+      "pins": {
+        "In": "Entrada",
+        "Out": "Sa\u00edda",
+        "MonoID": "IDMonocromador",
+        "Turret": "Torrete",
+        "EntranceSlit_mm": "FendaEntrada_mm",
+        "ExitSlit_mm": "FendaSa\u00edda_mm",
+        "ScopeAddress": "Endere\u00e7oOscilosc\u00f3pio",
+        "ScopeChannel": "CanalOscilosc\u00f3pio",
+        "TimeScale": "EscalaTempo",
+        "Simulation": "Simula\u00e7\u00e3o",
+        "MonoDevice": "DispositivoMonocromador",
+        "ScopeDevice": "DispositivoOscilosc\u00f3pio"
+      }
+    },
+    "es": {
+      "display_name": "Configurar Instrumentos VUV Horiba",
+      "description": "Inicializa el Monocromador VUV Horiba (MonoID, Torreta de Redes, Ranuras) y el Osciloscopio Tektronix MDO con modo de Simulaci\u00f3n seleccionable.",
+      "category": "Clusters/Horiba",
+      "pins": {
+        "In": "Entrada",
+        "Out": "Salida",
+        "MonoID": "IDMonocromador",
+        "Turret": "Torreta",
+        "EntranceSlit_mm": "RanuraEntrada_mm",
+        "ExitSlit_mm": "RanuraSalida_mm",
+        "ScopeAddress": "Direcci\u00f3nOsciloscopio",
+        "ScopeChannel": "CanalOsciloscopio",
+        "TimeScale": "EscalaTiempo",
+        "Simulation": "Simulaci\u00f3n",
+        "MonoDevice": "DispositivoMonocromador",
+        "ScopeDevice": "DispositivoOsciloscopio"
+      }
+    }
+  }
 }

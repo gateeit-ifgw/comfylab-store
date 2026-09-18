@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Monocromador VUV Horiba H20 UVL",
+      "description": "Blocos de driver para monocromador de v\u00e1cuo ultravioleta Horiba H20 UVL."
+    },
+    "es": {
+      "name": "Monocromador VUV Horiba H20 UVL",
+      "description": "Bloques de controlador para monocromador de vac\u00edo ultravioleta Horiba H20 UVL."
+    }
+  },
+  "hashes": {
+    "driver.py": "7537b1871627debab229d97c6dfdba4a4c2c8b5a94ba01d0214997245810522c",
+    "blocks.py": "e7354dd7eec40c74f38dc8ab2899cf11e0af3132c2bb20563ed5d9244b9e6323"
+  }
 }

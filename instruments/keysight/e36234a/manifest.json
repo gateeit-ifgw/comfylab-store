@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Fonte DC Keysight E36234A",
+      "description": "Blocos de driver para fonte DC de canal duplo de alta precis\u00e3o Keysight E36234A."
+    },
+    "es": {
+      "name": "Fuente DC Keysight E36234A",
+      "description": "Bloques de controlador para fuente DC de doble canal de alta precisi\u00f3n Keysight E36234A."
+    }
+  },
+  "hashes": {
+    "driver.py": "2e6452161735477491ec36f387ae20de59a56bb9895262b2c146f2285c3a33f3",
+    "blocks.py": "8e5e607ca9500222a80bf2978c51bc17b9d8e78dd6c46e9e4109164ccdeef2b7"
+  }
 }

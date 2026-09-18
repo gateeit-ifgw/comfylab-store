@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Oscilosc\u00f3pio Tektronix TBS1062",
+      "description": "Blocos de driver para oscilosc\u00f3pio digital de armazenamento Tektronix TBS1062."
+    },
+    "es": {
+      "name": "Osciloscopio Tektronix TBS1062",
+      "description": "Bloques de controlador para osciloscopio digital de almacenamiento Tektronix TBS1062."
+    }
+  },
+  "hashes": {
+    "driver.py": "9eafafca626299cf7198da83fde1e24e60edd7c90b21de5186ddea82f662e03d",
+    "blocks.py": "a06c88443dbc864f5c1cff11082f391cabd9a3b60735472d4f20ab321d04ccb2"
+  }
 }

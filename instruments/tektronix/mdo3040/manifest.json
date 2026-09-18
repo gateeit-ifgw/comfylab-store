@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Oscilosc\u00f3pio Tektronix MDO3040",
+      "description": "Blocos de driver para oscilosc\u00f3pio de dom\u00ednio misto Tektronix MDO3040."
+    },
+    "es": {
+      "name": "Osciloscopio Tektronix MDO3040",
+      "description": "Bloques de controlador para osciloscopio de dominio mixto Tektronix MDO3040."
+    }
+  },
+  "hashes": {
+    "driver.py": "0d16750ad4bf0498d047f26214c005009d6f5f53c4be2f2ee25a14d398f79267",
+    "blocks.py": "c435b946be7af215e5699184e6aee3599427e47e97a9460d23d092ac6e027e0f"
+  }
 }

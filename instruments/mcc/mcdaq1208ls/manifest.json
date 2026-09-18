@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Placa DAQ USB MCC USB-1208LS",
+      "description": "Blocos de driver para m\u00f3dulo multifun\u00e7\u00e3o de aquisi\u00e7\u00e3o de dados USB Measurement Computing USB-1208LS."
+    },
+    "es": {
+      "name": "Placa DAQ USB MCC USB-1208LS",
+      "description": "Bloques de controlador para m\u00f3dulo multifunci\u00f3n de adquisici\u00f3n de datos USB Measurement Computing USB-1208LS."
+    }
+  },
+  "hashes": {
+    "driver.py": "03ea004596cd457aa05a78b38a53e4b6a9e37887d7d435a248b353f4d7df32da",
+    "blocks.py": "5d76766e94fa047222cf5ca94e1ed943f4fde98fae3ce1e0aabf1c167da98ab7"
+  }
 }

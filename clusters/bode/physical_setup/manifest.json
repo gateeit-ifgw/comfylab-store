@@ -19,5 +19,19 @@
     "manifest.json",
     "bode_setup_instruments.cluster.json",
     "bode_measure_point.cluster.json"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Clusters do Setup F\u00edsico de Bode",
+      "description": "Clusters de inicializa\u00e7\u00e3o de instrumentos e medi\u00e7\u00e3o ponto a ponto de diagrama de Bode usando Minipa MFG-4230 e Tektronix TBS-1062."
+    },
+    "es": {
+      "name": "Clusters de Setup F\u00edsico de Bode",
+      "description": "Clusters de inicializaci\u00f3n de instrumentos y medici\u00f3n punto a punto de diagrama de Bode usando Minipa MFG-4230 y Tektronix TBS-1062."
+    }
+  },
+  "hashes": {
+    "bode_setup_instruments.cluster.json": "c763f03598007c2281d3cc88df6e6ccff79ca103ec9aaf2e52f0187667cfa20d",
+    "bode_measure_point.cluster.json": "b02565e60b34d19a31b21d0b096b4d55492300f9d505fd860b4c11dbbe3dd177"
+  }
 }

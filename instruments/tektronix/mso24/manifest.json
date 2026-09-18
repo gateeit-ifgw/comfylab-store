@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Oscilosc\u00f3pio Tektronix MSO24",
+      "description": "Blocos de driver para oscilosc\u00f3pio de sinais mistos Tektronix S\u00e9rie 2 (MSO24)."
+    },
+    "es": {
+      "name": "Osciloscopio Tektronix MSO24",
+      "description": "Bloques de controlador para osciloscopio de se\u00f1ales mixtas Tektronix Serie 2 (MSO24)."
+    }
+  },
+  "hashes": {
+    "driver.py": "c12a0d6a371751c98541616c443963384332d47ee3cefdd3cfa52fcad2b3db43",
+    "blocks.py": "3a4c73d8c2bae73f359f554ec4c728c7e0763ba0bf42a1d2793b6dc6ec0bcff2"
+  }
 }

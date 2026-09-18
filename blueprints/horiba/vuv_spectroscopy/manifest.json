@@ -15,5 +15,18 @@
   "files": [
     "manifest.json",
     "Horiba_H20_UVL_Spectroscopy.json"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Espectroscopia VUV Horiba H20 UVL",
+      "description": "Fluxo automatizado de espectroscopia de excita\u00e7\u00e3o e fluoresc\u00eancia VUV usando monocromador Horiba H20 UVL e oscilosc\u00f3pio Tektronix MDO-3040."
+    },
+    "es": {
+      "name": "Espectroscop\u00eda VUV Horiba H20 UVL",
+      "description": "Flujo automatizado de espectroscop\u00eda de excitaci\u00f3n y fluorescencia VUV usando monocromador Horiba H20 UVL y osciloscopio Tektronix MDO-3040."
+    }
+  },
+  "hashes": {
+    "Horiba_H20_UVL_Spectroscopy.json": "8d700bd144e9d57684a71ac8911435c39ccea61e4cf0c4e995429a14828dc581"
+  }
 }

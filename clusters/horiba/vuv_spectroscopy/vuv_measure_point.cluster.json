@@ -841,5 +841,47 @@
     ]
   },
   "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
-  "signature": "GZTkP/w0ZzENmhMwnpsCaP9hX9m0sO7H4im4reSnZE5LRU6lk82EvGgglR/K+uL9VcKb6WoaF4W53WvJXVEhCQ=="
+  "signature": "hdd5uF4MXygM5RJOGp4/Uqve6JKYQvhSzaDrCWtsJGZzzlM0NcRbiwGBSPW0amX0QG6oBOXdYxnCR6CLp7DYCg==",
+  "i18n": {
+    "pt-BR": {
+      "display_name": "Medir Ponto VUV Horiba",
+      "description": "Posiciona o Monocromador no comprimento de onda (nm), adquire a forma de onda do oscilosc\u00f3pio e calcula Tens\u00e3o M\u00e9dia, Desvio Padr\u00e3o, Pot\u00eancia (mW) e Pot\u00eancia (dBm).",
+      "category": "Clusters/Horiba",
+      "pins": {
+        "In": "Entrada",
+        "Out": "Sa\u00edda",
+        "MonoDevice": "DispositivoMonocromador",
+        "ScopeDevice": "DispositivoOscilosc\u00f3pio",
+        "Wavelength": "ComprimentoDeOnda",
+        "ScopeChannel": "CanalOscilosc\u00f3pio",
+        "CalFactor": "FatorCalibra\u00e7\u00e3o",
+        "SettleDelay": "AtrasoEstabiliza\u00e7\u00e3o",
+        "Simulation": "Simula\u00e7\u00e3o",
+        "Power_mW": "Pot\u00eancia_mW",
+        "Power_dBm": "Pot\u00eancia_dBm",
+        "StdDev_V": "DesvPad_V",
+        "MeanVoltage_V": "Tens\u00e3oM\u00e9dia_V"
+      }
+    },
+    "es": {
+      "display_name": "Medir Punto VUV Horiba",
+      "description": "Posiciona el Monocromador en la longitud de onda (nm), adquiere la forma de onda del osciloscopio y calcula Voltaje Medio, Desviaci\u00f3n Est\u00e1ndar, Potencia (mW) y Potencia (dBm).",
+      "category": "Clusters/Horiba",
+      "pins": {
+        "In": "Entrada",
+        "Out": "Salida",
+        "MonoDevice": "DispositivoMonocromador",
+        "ScopeDevice": "DispositivoOsciloscopio",
+        "Wavelength": "LongitudDeOnda",
+        "ScopeChannel": "CanalOsciloscopio",
+        "CalFactor": "FactorCalibraci\u00f3n",
+        "SettleDelay": "RetardoEstabilizaci\u00f3n",
+        "Simulation": "Simulaci\u00f3n",
+        "Power_mW": "Potencia_mW",
+        "Power_dBm": "Potencia_dBm",
+        "StdDev_V": "DesvEst_V",
+        "MeanVoltage_V": "VoltajeMedio_V"
+      }
+    }
+  }
 }

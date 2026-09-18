@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Medidor de Pot\u00eancia \u00d3ptica Thorlabs PM100D",
+      "description": "Blocos de driver para console digital de medi\u00e7\u00e3o de pot\u00eancia \u00f3ptica Thorlabs PM100D."
+    },
+    "es": {
+      "name": "Medidor de Potencia \u00d3ptica Thorlabs PM100D",
+      "description": "Bloques de controlador para consola digital de medici\u00f3n de potencia \u00f3ptica Thorlabs PM100D."
+    }
+  },
+  "hashes": {
+    "driver.py": "78067c600625f486ef71ccbee695aacbb945b2ebb16a0dd15256d4244cdd9d6e",
+    "blocks.py": "e868b30e75f32b45694c03ef33826b485765330f693af3532a843eb7030b94cc"
+  }
 }

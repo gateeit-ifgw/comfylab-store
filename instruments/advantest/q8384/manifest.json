@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Analisador de Espectro \u00d3ptico Advantest Q8384",
+      "description": "Blocos de driver para analisador de espectro \u00f3ptico (OSA) de alta resolu\u00e7\u00e3o Advantest Q8384."
+    },
+    "es": {
+      "name": "Analizador de Espectro \u00d3ptico Advantest Q8384",
+      "description": "Bloques de controlador para analizador de espectro \u00f3ptico (OSA) de alta resoluci\u00f3n Advantest Q8384."
+    }
+  },
+  "hashes": {
+    "driver.py": "663c7c43dff9c7603f9768f15ec88162d056bab7109bac2145c258d5ae202860",
+    "blocks.py": "9045e6de708164bd5c4f8848cc74e728956b500b55be1c10eff24bb60ef38d62"
+  }
 }

@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Amplificador \u00d3ptico EDFA Keopsys",
+      "description": "Blocos de driver para amplificador \u00f3ptico de fibra dopada com \u00e9rbio (EDFA) Keopsys."
+    },
+    "es": {
+      "name": "Amplificador \u00d3ptico EDFA Keopsys",
+      "description": "Bloques de controlador para amplificador \u00f3ptico de fibra dopada con erbio (EDFA) Keopsys."
+    }
+  },
+  "hashes": {
+    "driver.py": "939b1b1cc8b0781c04a191d7703896db210740cdf891dda35bc020563cd9e759",
+    "blocks.py": "b25cba5b63b8479058368df3e4a38eab7749f41ec141b1d30f6649d6b46d0546"
+  }
 }

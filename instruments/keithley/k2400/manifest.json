@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Fonte e Medidor (SMU) Keithley 2400",
+      "description": "Blocos de driver para unidade de fonte e medida (SMU) Keithley 2400."
+    },
+    "es": {
+      "name": "Fuente y Medidor (SMU) Keithley 2400",
+      "description": "Bloques de controlador para unidad de fuente y medida (SMU) Keithley 2400."
+    }
+  },
+  "hashes": {
+    "driver.py": "961b1fe70f4b7d53f9a80d765cb35dd363cc1729b4ec50b72aa6b37d291ef86f",
+    "blocks.py": "9d263dcfaa8bf00f2bdac10037cf53dfe5756456749822303fb4a50e61e901d0"
+  }
 }

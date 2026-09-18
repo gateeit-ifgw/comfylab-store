@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Gerador de Fun\u00e7\u00f5es Minipa MFG-4230",
+      "description": "Blocos de driver para gerador de fun\u00e7\u00f5es e formas de onda arbitr\u00e1rias Minipa MFG-4230."
+    },
+    "es": {
+      "name": "Generador de Funciones Minipa MFG-4230",
+      "description": "Bloques de controlador para generador de funciones y formas de onda arbitrarias Minipa MFG-4230."
+    }
+  },
+  "hashes": {
+    "driver.py": "2415fbec128fc4fadaa0040be60661fba78d0445dc204987775d1fab4099e10b",
+    "blocks.py": "913b80c05e1f41d9da7e97774c9488caba79785500181467600abcdbba02147d"
+  }
 }

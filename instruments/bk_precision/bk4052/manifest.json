@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Gerador de Formas de Onda BK Precision 4052",
+      "description": "Blocos de driver para gerador de formas de onda de canal duplo BK Precision 4052."
+    },
+    "es": {
+      "name": "Generador de Formas de Onda BK Precision 4052",
+      "description": "Bloques de controlador para generador de formas de onda de doble canal BK Precision 4052."
+    }
+  },
+  "hashes": {
+    "driver.py": "1f1eb9e83a072a0db52c20ab8232fbf2160af8bebb4bda9ab0bbc27a452dcbf7",
+    "blocks.py": "67417de865489f2c3f58b14e6f0557ac59791f4afabb7a8cbdd64548ef383c2d"
+  }
 }

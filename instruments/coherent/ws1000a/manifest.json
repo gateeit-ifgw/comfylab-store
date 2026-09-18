@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Medidor de Comprimento de Onda Coherent WaveMaster",
+      "description": "Blocos de driver para medidor de comprimento de onda a laser Coherent WaveMaster (WS-1000A)."
+    },
+    "es": {
+      "name": "Medidor de Longitud de Onda Coherent WaveMaster",
+      "description": "Bloques de controlador para medidor de longitud de onda l\u00e1ser Coherent WaveMaster (WS-1000A)."
+    }
+  },
+  "hashes": {
+    "driver.py": "65e5570a95678c37d9a59db5b27f1c1ef892291aa68ab59567c2a27a7ea4aff9",
+    "blocks.py": "8b9c673ac235419b49116de351671a4c82959ccf8b0e2b1c8826308d6f4415ad"
+  }
 }

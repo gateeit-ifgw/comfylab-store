@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Analisador de Espectro Agilent E4407B",
+      "description": "Blocos de driver para analisador de espectro Agilent ESA-E E4407B (9 kHz a 26.5 GHz)."
+    },
+    "es": {
+      "name": "Analizador de Espectro Agilent E4407B",
+      "description": "Bloques de controlador para analizador de espectro Agilent ESA-E E4407B (9 kHz a 26.5 GHz)."
+    }
+  },
+  "hashes": {
+    "driver.py": "9e4adf52bffd22164503454fc8a9ed7336ac981eb205cb16f6f449fa776e54fa",
+    "blocks.py": "53d99321b3c9f87ab36ac2fd14f4a3b4bc66a3db33533c42e433132fe8fa5053"
+  }
 }

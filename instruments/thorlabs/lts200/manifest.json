@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Est\u00e1gio de Transla\u00e7\u00e3o Thorlabs LTS200",
+      "description": "Blocos de driver para platina de transla\u00e7\u00e3o motorizada de longo curso Thorlabs LTS200."
+    },
+    "es": {
+      "name": "Etapa de Traslaci\u00f3n Thorlabs LTS200",
+      "description": "Bloques de controlador para platina de traslaci\u00f3n motorizada de largo recorrido Thorlabs LTS200."
+    }
+  },
+  "hashes": {
+    "driver.py": "19c51c6fa95c7af7aa65549ec4ec77b4bd01e5d23ace3bca7283fdd840a63e9c",
+    "blocks.py": "b91d16612a2aba786d29769fde67b691320ff6916f58b4158a8ff8c9b856f603"
+  }
 }

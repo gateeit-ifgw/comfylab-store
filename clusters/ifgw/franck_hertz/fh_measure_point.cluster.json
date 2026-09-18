@@ -712,5 +712,39 @@
     ]
   },
   "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
-  "signature": "45B1chr4q8uXtkDTNOj/PIMHJvMg0e2C1eTAmjI/OobYSL7KoM3WMcUNtVIJXZ88bPq/cd8m9T0K0zY47Z+mBw=="
+  "signature": "TUC2pbsxFWmV/BIX9xQjmP7QBIgNK7HBW5qksQ/b5tQeKX88JLUzhi96ZmPEDpP0GTSbZcTL67kfqwynqmKtBQ==",
+  "i18n": {
+    "pt-BR": {
+      "display_name": "Medir Ponto Franck-Hertz",
+      "description": "Adquire tens\u00e3o de acelera\u00e7\u00e3o (Ua), corrente de coletor (Is), tens\u00e3o de retardo (Us) e temperatura (T) via comandos seriais ou modo de simula\u00e7\u00e3o f\u00edsica.",
+      "category": "Clusters/Franck-Hertz",
+      "pins": {
+        "In": "Entrada",
+        "Out": "Sa\u00edda",
+        "Device": "Dispositivo",
+        "Step": "Passo",
+        "Simulation": "Simula\u00e7\u00e3o",
+        "Ua_V": "Ua_V",
+        "Is_nA": "Is_nA",
+        "Us_V": "Us_V",
+        "Temp_C": "Temp_C"
+      }
+    },
+    "es": {
+      "display_name": "Medir Punto Franck-Hertz",
+      "description": "Adquiere voltaje de aceleraci\u00f3n (Ua), corriente de colector (Is), voltaje de retardo (Us) y temperatura (T) mediante consultas seriales o modo de simulaci\u00f3n f\u00edsica.",
+      "category": "Clusters/Franck-Hertz",
+      "pins": {
+        "In": "Entrada",
+        "Out": "Salida",
+        "Device": "Dispositivo",
+        "Step": "Paso",
+        "Simulation": "Simulaci\u00f3n",
+        "Ua_V": "Ua_V",
+        "Is_nA": "Is_nA",
+        "Us_V": "Us_V",
+        "Temp_C": "Temp_C"
+      }
+    }
+  }
 }

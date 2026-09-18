@@ -13,5 +13,19 @@
     "manifest.json",
     "driver.py",
     "blocks.py"
-  ]
+  ],
+  "i18n": {
+    "pt-BR": {
+      "name": "Amplificador Lock-in SRS SR830",
+      "description": "Blocos de driver para amplificador lock-in de DSP duplo Stanford Research Systems SR830."
+    },
+    "es": {
+      "name": "Amplificador Lock-in SRS SR830",
+      "description": "Bloques de controlador para amplificador lock-in de doble DSP Stanford Research Systems SR830."
+    }
+  },
+  "hashes": {
+    "driver.py": "2c9ff0a0ac18e1dd4ee6716416bc6fa89eb80e473b9db1acd924d9917863a4f7",
+    "blocks.py": "3e02d285075e1982fb0f4a9fdd6df52c5043b5c7319aad2c5ff5c4613a9b27f8"
+  }
 }

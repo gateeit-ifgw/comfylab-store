@@ -294,5 +294,35 @@
     ]
   },
   "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
-  "signature": "I8VexAligmbus+mJ4/GfLMUmlPA/d/T4NmQI6qLbHDRlFmoLJphDUssWQZ7zMBqYmDuigHK083BGaeMsM6QhAQ=="
+  "signature": "TeBvi4WOZCm949AUsCwjIqyolfHRHBxdqt/BM0CRVpdyRnn9tRRBeEfIfvJUhMvSCmHYDnrheWs3QUFOMm+hCA==",
+  "i18n": {
+    "pt-BR": {
+      "display_name": "Exportar Conjunto de Dados VUV Horiba",
+      "description": "Empacota os arrays de comprimento de onda (nm), pot\u00eancia (mW), pot\u00eancia (dBm) e desvio padr\u00e3o, salvando em arquivo CSV com carimbo de data/hora.",
+      "category": "Clusters/Horiba",
+      "pins": {
+        "Write": "Gravar",
+        "Out": "Sa\u00edda",
+        "Wavelength_Array": "Array_ComprimentoDeOnda",
+        "Power_mW_Array": "Array_Pot\u00eancia_mW",
+        "Power_dBm_Array": "Array_Pot\u00eancia_dBm",
+        "StdDev_Array": "Array_DesvPad",
+        "SavedPath": "CaminhoSalvo"
+      }
+    },
+    "es": {
+      "display_name": "Exportar Conjunto de Datos VUV Horiba",
+      "description": "Empaqueta los arrays de longitud de onda (nm), potencia (mW), potencia (dBm) y desviaci\u00f3n est\u00e1ndar, guardando en archivo CSV con marca de tiempo.",
+      "category": "Clusters/Horiba",
+      "pins": {
+        "Write": "Escribir",
+        "Out": "Salida",
+        "Wavelength_Array": "Array_LongitudDeOnda",
+        "Power_mW_Array": "Array_Potencia_mW",
+        "Power_dBm_Array": "Array_Potencia_dBm",
+        "StdDev_Array": "Array_DesvEst",
+        "SavedPath": "RutaGuardada"
+      }
+    }
+  }
 }
