@@ -1,0 +1,19 @@
+{
+  "id": "blueprints/horiba/vuv_spectroscopy",
+  "name": "Horiba H20 UVL VUV Spectroscopy",
+  "vendor": "Academic / IFGW",
+  "vendor_slug": "ifgw",
+  "type": "blueprint",
+  "version": "1.0.0",
+  "description": "Automated VUV excitation and fluorescence spectroscopy workflow using Horiba H20 UVL monochromator and Tektronix MDO-3040.",
+  "author": "Paulo Felipe Jarschel",
+  "dependencies": [
+    "clusters/horiba/vuv_spectroscopy",
+    "instruments/horiba/vuv_excitation",
+    "instruments/tektronix/mdo3040"
+  ],
+  "files": [
+    "manifest.json",
+    "Horiba_H20_UVL_Spectroscopy.json"
+  ]
+}

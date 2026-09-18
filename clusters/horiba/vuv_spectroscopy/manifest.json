@@ -1,0 +1,27 @@
+{
+  "id": "clusters/horiba/vuv_spectroscopy",
+  "name": "Horiba VUV Spectroscopy Clusters",
+  "vendor": "Academic / IFGW",
+  "vendor_slug": "ifgw",
+  "type": "cluster",
+  "version": "1.0.0",
+  "description": "Setup, measurement, accumulation, and export clusters for Horiba H20 UVL monochromator and Tektronix MDO-3040.",
+  "author": "Paulo Felipe Jarschel",
+  "dependencies": [
+    "instruments/horiba/vuv_excitation",
+    "instruments/tektronix/mdo3040"
+  ],
+  "provides": [
+    "builtin/cluster/vuv_setup_instruments",
+    "builtin/cluster/vuv_measure_point",
+    "builtin/cluster/vuv_accumulate_data",
+    "builtin/cluster/vuv_export_dataset"
+  ],
+  "files": [
+    "manifest.json",
+    "vuv_setup_instruments.cluster.json",
+    "vuv_measure_point.cluster.json",
+    "vuv_accumulate_data.cluster.json",
+    "vuv_export_dataset.cluster.json"
+  ]
+}

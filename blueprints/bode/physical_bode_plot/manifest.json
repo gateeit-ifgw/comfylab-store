@@ -1,0 +1,19 @@
+{
+  "id": "blueprints/bode/physical_bode_plot",
+  "name": "Bode Plot Measurement (Physical)",
+  "vendor": "Academic / IFGW",
+  "vendor_slug": "ifgw",
+  "type": "blueprint",
+  "version": "1.0.0",
+  "description": "Complete automated Bode Plot frequency response measurement workflow using Minipa MFG-4230 and Tektronix TBS-1062.",
+  "author": "Paulo Felipe Jarschel",
+  "dependencies": [
+    "clusters/bode/physical_setup",
+    "instruments/minipa/mfg4230",
+    "instruments/tektronix/tbs1062"
+  ],
+  "files": [
+    "manifest.json",
+    "Bode_Plot_Example.json"
+  ]
+}

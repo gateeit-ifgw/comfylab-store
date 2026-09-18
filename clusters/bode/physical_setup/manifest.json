@@ -1,0 +1,23 @@
+{
+  "id": "clusters/bode/physical_setup",
+  "name": "Bode Physical Setup Clusters",
+  "vendor": "Academic / IFGW",
+  "vendor_slug": "ifgw",
+  "type": "cluster",
+  "version": "1.0.0",
+  "description": "Instrument setup and point measurement clusters for Bode Plot using Minipa MFG-4230 and Tektronix TBS-1062.",
+  "author": "Paulo Felipe Jarschel",
+  "dependencies": [
+    "instruments/minipa/mfg4230",
+    "instruments/tektronix/tbs1062"
+  ],
+  "provides": [
+    "builtin/cluster/bode_setup_instruments",
+    "builtin/cluster/bode_measure_point"
+  ],
+  "files": [
+    "manifest.json",
+    "bode_setup_instruments.cluster.json",
+    "bode_measure_point.cluster.json"
+  ]
+}
