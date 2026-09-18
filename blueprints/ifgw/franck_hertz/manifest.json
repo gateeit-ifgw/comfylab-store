@@ -1,0 +1,17 @@
+{
+  "id": "blueprints/ifgw/franck_hertz",
+  "name": "IFGW F-740 Franck-Hertz Experiment",
+  "vendor": "Academic / IFGW",
+  "vendor_slug": "ifgw",
+  "type": "blueprint",
+  "version": "1.0.0",
+  "description": "Complete automated Franck-Hertz mercury resonance curve measurement workflow with real-time plotting, safety limit monitoring, and dataset export.",
+  "author": "Paulo Felipe Jarschel",
+  "dependencies": [
+    "clusters/ifgw/franck_hertz"
+  ],
+  "files": [
+    "manifest.json",
+    "IFGW-F740_FranckHertz.json"
+  ]
+}

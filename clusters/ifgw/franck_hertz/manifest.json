@@ -1,0 +1,26 @@
+{
+  "id": "clusters/ifgw/franck_hertz",
+  "name": "Franck-Hertz Experiment Clusters",
+  "vendor": "Academic / IFGW",
+  "vendor_slug": "ifgw",
+  "type": "cluster",
+  "version": "1.0.0",
+  "description": "Setup, point acquisition, limit checking, array accumulation, and dataset export clusters for the IFGW F-740 Franck-Hertz experiment using serial communication.",
+  "author": "Paulo Felipe Jarschel",
+  "dependencies": [],
+  "provides": [
+    "builtin/cluster/fh_setup_instruments",
+    "builtin/cluster/fh_measure_point",
+    "builtin/cluster/fh_check_limits",
+    "builtin/cluster/fh_accumulate_data",
+    "builtin/cluster/fh_export_dataset"
+  ],
+  "files": [
+    "manifest.json",
+    "fh_setup_instruments.cluster.json",
+    "fh_measure_point.cluster.json",
+    "fh_check_limits.cluster.json",
+    "fh_accumulate_data.cluster.json",
+    "fh_export_dataset.cluster.json"
+  ]
+}

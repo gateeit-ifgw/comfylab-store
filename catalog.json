@@ -60,6 +60,29 @@
       }
     },
     {
+      "id": "blueprints/ifgw/franck_hertz",
+      "name": "IFGW F-740 Franck-Hertz Experiment",
+      "vendor": "Academic / IFGW",
+      "vendor_slug": "ifgw",
+      "type": "blueprint",
+      "version": "1.0.0",
+      "description": "Complete automated Franck-Hertz mercury resonance curve measurement workflow with real-time plotting, safety limit monitoring, and dataset export.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "blueprints/ifgw/franck_hertz",
+      "dependencies": [
+        "clusters/ifgw/franck_hertz"
+      ],
+      "provides": [],
+      "files": [
+        "manifest.json",
+        "IFGW-F740_FranckHertz.json"
+      ],
+      "hashes": {
+        "manifest.json": "f48343a21dcfa5e8447ebde74062f622bca4c574c9b60d26463c8db332480ea9",
+        "IFGW-F740_FranckHertz.json": "c8606a882cfe95de168c898c04d598b8037fd80ea49a155aa72633b413189a9b"
+      }
+    },
+    {
       "id": "clusters/bode/physical_setup",
       "name": "Bode Physical Setup Clusters",
       "vendor": "Academic / IFGW",
@@ -121,6 +144,41 @@
         "vuv_measure_point.cluster.json": "48dc379898d38cc82b0c2535222b47bf0b72322c7139f9e0aa67c49b66d20eff",
         "vuv_accumulate_data.cluster.json": "1a8f291e04c25a9e179d4f63506cd2fce2443d80312aae4fb29aa40e61e5e594",
         "vuv_export_dataset.cluster.json": "82b28604c42ff1324ebe35a0bcfb8aca7c4ec923cd01ba07d902d32861995483"
+      }
+    },
+    {
+      "id": "clusters/ifgw/franck_hertz",
+      "name": "Franck-Hertz Experiment Clusters",
+      "vendor": "Academic / IFGW",
+      "vendor_slug": "ifgw",
+      "type": "cluster",
+      "version": "1.0.0",
+      "description": "Setup, point acquisition, limit checking, array accumulation, and dataset export clusters for the IFGW F-740 Franck-Hertz experiment using serial communication.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "clusters/ifgw/franck_hertz",
+      "dependencies": [],
+      "provides": [
+        "builtin/cluster/fh_setup_instruments",
+        "builtin/cluster/fh_measure_point",
+        "builtin/cluster/fh_check_limits",
+        "builtin/cluster/fh_accumulate_data",
+        "builtin/cluster/fh_export_dataset"
+      ],
+      "files": [
+        "manifest.json",
+        "fh_setup_instruments.cluster.json",
+        "fh_measure_point.cluster.json",
+        "fh_check_limits.cluster.json",
+        "fh_accumulate_data.cluster.json",
+        "fh_export_dataset.cluster.json"
+      ],
+      "hashes": {
+        "manifest.json": "5cb7d593c85d1f3eab73f52736dea2cff512f6bf5eba7e95f6f4ec02c55559c7",
+        "fh_setup_instruments.cluster.json": "fe0ae4107bfbe3c723a504062596cf798e58b83107d2518f00979bd1578cd082",
+        "fh_measure_point.cluster.json": "2fbe9af0b52e023b3de2cd213d324f8bd7cc261968ab87c66dad4de4db17dff2",
+        "fh_check_limits.cluster.json": "0e3f1cf6865eb9d0ab0e51f3a7329a14d3c35e3c052a51d682f62570c769935a",
+        "fh_accumulate_data.cluster.json": "f12b787af7e1c68abe575e119e51edcd22d3c96095fbdeaf466c6417ae57465d",
+        "fh_export_dataset.cluster.json": "8d54b2ae6040e4f2c98f6cabcd21da920810d4c604b72131d28ced6cd6fd0423"
       }
     },
     {
@@ -909,5 +967,5 @@
     }
   ],
   "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
-  "signature": "FrPBqKeawAioRV3jQhFOiP2gOo9SGplSxDKhZuKdj7klbsNPqNHrV5cmH66LRUjUYKIK5V1J3hUz8uzGccBaCw=="
+  "signature": "oQHQZWiiuRTfwEeI9oZT3+jkyPtcpDHUziW1b5k8k/33NJYdmJb867Oxc6NJU10wilTTon3bYQLjK3TTmjLdBg=="
 }
