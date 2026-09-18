@@ -10,14 +10,14 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Oscilosc\u00f3pio Keysight DSOX3024A",
-      "description": "Blocos de driver para oscilosc\u00f3pio digital Keysight InfiniiVision DSOX3024A."
+      "name": "Osciloscópio Keysight DSOX3024A",
+      "description": "Blocos de driver para osciloscópio digital Keysight InfiniiVision DSOX3024A."
     },
     "es": {
       "name": "Osciloscopio Keysight DSOX3024A",
@@ -25,7 +25,8 @@
     }
   },
   "hashes": {
-    "driver.py": "8dee5eb29d6e0c2b8b7e2495532573d534692ec324a7c761b2f53808b2254cde",
-    "blocks.py": "506f29b494e0911369bb6874bde5344b0b38a9efbfefae27749df7aa580878cd"
-  }
+    "blocks.py": "506f29b494e0911369bb6874bde5344b0b38a9efbfefae27749df7aa580878cd",
+    "driver.py": "8dee5eb29d6e0c2b8b7e2495532573d534692ec324a7c761b2f53808b2254cde"
+  },
+  "path": "instruments/keysight/dsox3024a"
 }

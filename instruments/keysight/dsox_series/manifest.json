@@ -10,14 +10,14 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Oscilosc\u00f3pios Keysight S\u00e9rie DSOX",
-      "description": "Blocos de driver universais para oscilosc\u00f3pios da s\u00e9rie Keysight InfiniiVision DSOX."
+      "name": "Osciloscópios Keysight Série DSOX",
+      "description": "Blocos de driver universais para osciloscópios da série Keysight InfiniiVision DSOX."
     },
     "es": {
       "name": "Osciloscopios Keysight Serie DSOX",
@@ -25,7 +25,8 @@
     }
   },
   "hashes": {
-    "driver.py": "739e04cb6afde9e85f969180eac14a7b72ad4fa1b7b36e4671391eb6ba39c866",
-    "blocks.py": "ce3a7a61139f95e7aa6ab421fe5ab2511780937bdf02b623302d79e2db13d467"
-  }
+    "blocks.py": "ce3a7a61139f95e7aa6ab421fe5ab2511780937bdf02b623302d79e2db13d467",
+    "driver.py": "739e04cb6afde9e85f969180eac14a7b72ad4fa1b7b36e4671391eb6ba39c866"
+  },
+  "path": "instruments/keysight/dsox_series"
 }

@@ -10,14 +10,14 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Gerador de Fun\u00e7\u00f5es OWON S\u00e9rie DGE2000",
-      "description": "Blocos de driver para geradores de formas de onda arbitr\u00e1rias da s\u00e9rie OWON DGE2000."
+      "name": "Gerador de Funções OWON Série DGE2000",
+      "description": "Blocos de driver para geradores de formas de onda arbitrárias da série OWON DGE2000."
     },
     "es": {
       "name": "Generador de Funciones OWON Serie DGE2000",
@@ -25,7 +25,8 @@
     }
   },
   "hashes": {
-    "driver.py": "2b90d7f4c5c7d14ec56c9d741a0c38adef958b92a6f2c954107418a91a86b2f6",
-    "blocks.py": "7928352f7453e0f6e604ca8961df35ad93f5f192a3e6b92b187e6b3b5783275c"
-  }
+    "blocks.py": "7928352f7453e0f6e604ca8961df35ad93f5f192a3e6b92b187e6b3b5783275c",
+    "driver.py": "2b90d7f4c5c7d14ec56c9d741a0c38adef958b92a6f2c954107418a91a86b2f6"
+  },
+  "path": "instruments/owon/dge2000"
 }

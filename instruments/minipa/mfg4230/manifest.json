@@ -10,14 +10,14 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Gerador de Fun\u00e7\u00f5es Minipa MFG-4230",
-      "description": "Blocos de driver para gerador de fun\u00e7\u00f5es e formas de onda arbitr\u00e1rias Minipa MFG-4230."
+      "name": "Gerador de Funções Minipa MFG-4230",
+      "description": "Blocos de driver para gerador de funções e formas de onda arbitrárias Minipa MFG-4230."
     },
     "es": {
       "name": "Generador de Funciones Minipa MFG-4230",
@@ -25,7 +25,8 @@
     }
   },
   "hashes": {
-    "driver.py": "2415fbec128fc4fadaa0040be60661fba78d0445dc204987775d1fab4099e10b",
-    "blocks.py": "913b80c05e1f41d9da7e97774c9488caba79785500181467600abcdbba02147d"
-  }
+    "blocks.py": "913b80c05e1f41d9da7e97774c9488caba79785500181467600abcdbba02147d",
+    "driver.py": "1819f5cd65c028364e0191dd27eb4868b0f3fbddd6844172fc58578055f3df7e"
+  },
+  "path": "instruments/minipa/mfg4230"
 }

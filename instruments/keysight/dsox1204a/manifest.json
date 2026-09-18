@@ -10,14 +10,14 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Oscilosc\u00f3pio Keysight DSOX1204A",
-      "description": "Blocos de driver para oscilosc\u00f3pio digital de 4 canais Keysight InfiniiVision DSOX1204A."
+      "name": "Osciloscópio Keysight DSOX1204A",
+      "description": "Blocos de driver para osciloscópio digital de 4 canais Keysight InfiniiVision DSOX1204A."
     },
     "es": {
       "name": "Osciloscopio Keysight DSOX1204A",
@@ -25,7 +25,8 @@
     }
   },
   "hashes": {
-    "driver.py": "a9b848ef7611029319bb43c9f88fdc4e986071d7daf3a8cc6b7827e163923eb6",
-    "blocks.py": "79112750f16da3463f575ba0c3ca51a64fcba38003ac2f59d04bb04e2d8dd546"
-  }
+    "blocks.py": "79112750f16da3463f575ba0c3ca51a64fcba38003ac2f59d04bb04e2d8dd546",
+    "driver.py": "a9b848ef7611029319bb43c9f88fdc4e986071d7daf3a8cc6b7827e163923eb6"
+  },
+  "path": "instruments/keysight/dsox1204a"
 }

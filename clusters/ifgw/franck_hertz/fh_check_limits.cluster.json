@@ -2,7 +2,7 @@
   "name": "Franck-Hertz Safety & Limit Checks",
   "type_name": "builtin/cluster/fh_check_limits",
   "category": "Clusters",
-  "icon": "\ud83d\udee1\ufe0f",
+  "icon": "🛡️",
   "display_name": "Franck-Hertz Limit & Safety Checks",
   "description": "Evaluates sweep continuation condition (Index == 0 OR (Ua < Max_Ua AND Is < Max_Is)).",
   "internal_blueprint": {
@@ -295,15 +295,13 @@
       }
     ]
   },
-  "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
-  "signature": "3itPKZfFHbiA8n774ZvtZBVlSnohAa7FDtBdGfuE7GurvMmkNkRQMLyw1KS81uGLQQv6FEsWZpxh5BUbyAhiDg==",
   "i18n": {
     "pt-BR": {
-      "display_name": "Verifica\u00e7\u00e3o de Limites Franck-Hertz",
-      "description": "Avalia a condi\u00e7\u00e3o de continua\u00e7\u00e3o da varredura (Index == 0 OU (Ua < Max_Ua E Is < Max_Is)).",
+      "display_name": "Verificação de Limites Franck-Hertz",
+      "description": "Avalia a condição de continuação da varredura (Index == 0 OU (Ua < Max_Ua E Is < Max_Is)).",
       "category": "Clusters/Franck-Hertz",
       "pins": {
-        "Index": "\u00cdndice",
+        "Index": "Índice",
         "Ua_V": "Ua_V",
         "Is_nA": "Is_nA",
         "Max_Ua": "Max_Ua",
@@ -312,11 +310,11 @@
       }
     },
     "es": {
-      "display_name": "Verificaci\u00f3n de L\u00edmites Franck-Hertz",
-      "description": "Eval\u00faa la condici\u00f3n de continuaci\u00f3n del barrido (Index == 0 O (Ua < Max_Ua Y Is < Max_Is)).",
+      "display_name": "Verificación de Límites Franck-Hertz",
+      "description": "Evalúa la condición de continuación del barrido (Index == 0 O (Ua < Max_Ua Y Is < Max_Is)).",
       "category": "Clusters/Franck-Hertz",
       "pins": {
-        "Index": "\u00cdndice",
+        "Index": "Índice",
         "Ua_V": "Ua_V",
         "Is_nA": "Is_nA",
         "Max_Ua": "Max_Ua",
@@ -324,5 +322,7 @@
         "Continue": "Continuar"
       }
     }
-  }
+  },
+  "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
+  "signature": "3itPKZfFHbiA8n774ZvtZBVlSnohAa7FDtBdGfuE7GurvMmkNkRQMLyw1KS81uGLQQv6FEsWZpxh5BUbyAhiDg=="
 }

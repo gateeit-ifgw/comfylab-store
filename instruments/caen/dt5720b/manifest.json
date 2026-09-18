@@ -10,22 +10,23 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
       "name": "Digitalizador CAEN DT5720B",
-      "description": "Blocos de driver para digitalizador de pulsos e f\u00edsica nuclear CAEN DT5720B."
+      "description": "Blocos de driver para digitalizador de pulsos e física nuclear CAEN DT5720B."
     },
     "es": {
       "name": "Digitalizador CAEN DT5720B",
-      "description": "Bloques de controlador para digitalizador de pulsos y f\u00edsica nuclear CAEN DT5720B."
+      "description": "Bloques de controlador para digitalizador de pulsos y física nuclear CAEN DT5720B."
     }
   },
   "hashes": {
-    "driver.py": "570e311c3f9f449081e2625df471544864a85d523e925616dbfa266140451c81",
-    "blocks.py": "475a1eba4b0fd0948dd6d229f4caea2b19e64af05327174c24ee8a2a6f34f2c6"
-  }
+    "blocks.py": "475a1eba4b0fd0948dd6d229f4caea2b19e64af05327174c24ee8a2a6f34f2c6",
+    "driver.py": "570e311c3f9f449081e2625df471544864a85d523e925616dbfa266140451c81"
+  },
+  "path": "instruments/caen/dt5720b"
 }

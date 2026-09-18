@@ -10,14 +10,14 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Oscilosc\u00f3pio Tektronix MDO3040",
-      "description": "Blocos de driver para oscilosc\u00f3pio de dom\u00ednio misto Tektronix MDO3040."
+      "name": "Osciloscópio Tektronix MDO3040",
+      "description": "Blocos de driver para osciloscópio de domínio misto Tektronix MDO3040."
     },
     "es": {
       "name": "Osciloscopio Tektronix MDO3040",
@@ -25,7 +25,8 @@
     }
   },
   "hashes": {
-    "driver.py": "0d16750ad4bf0498d047f26214c005009d6f5f53c4be2f2ee25a14d398f79267",
-    "blocks.py": "c435b946be7af215e5699184e6aee3599427e47e97a9460d23d092ac6e027e0f"
-  }
+    "blocks.py": "c435b946be7af215e5699184e6aee3599427e47e97a9460d23d092ac6e027e0f",
+    "driver.py": "0d16750ad4bf0498d047f26214c005009d6f5f53c4be2f2ee25a14d398f79267"
+  },
+  "path": "instruments/tektronix/mdo3040"
 }

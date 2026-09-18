@@ -10,22 +10,23 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Analisador de Espectro \u00d3ptico Yokogawa AQ6370",
-      "description": "Blocos de driver para analisador de espectro \u00f3ptico (OSA) de alta resolu\u00e7\u00e3o Yokogawa AQ6370."
+      "name": "Analisador de Espectro Óptico Yokogawa AQ6370",
+      "description": "Blocos de driver para analisador de espectro óptico (OSA) de alta resolução Yokogawa AQ6370."
     },
     "es": {
-      "name": "Analizador de Espectro \u00d3ptico Yokogawa AQ6370",
-      "description": "Bloques de controlador para analizador de espectro \u00f3ptico (OSA) de alta resoluci\u00f3n Yokogawa AQ6370."
+      "name": "Analizador de Espectro Óptico Yokogawa AQ6370",
+      "description": "Bloques de controlador para analizador de espectro óptico (OSA) de alta resolución Yokogawa AQ6370."
     }
   },
   "hashes": {
-    "driver.py": "5a1598f401022e09dccd52c652baef23764f3d6e40c788e2c600b6ab4bb0dbd5",
-    "blocks.py": "be8269f733576432cf098da1086c20fab7e39b624c44702a1acd4d5ca32c90d6"
-  }
+    "blocks.py": "be8269f733576432cf098da1086c20fab7e39b624c44702a1acd4d5ca32c90d6",
+    "driver.py": "5a1598f401022e09dccd52c652baef23764f3d6e40c788e2c600b6ab4bb0dbd5"
+  },
+  "path": "instruments/yokogawa/aq6370"
 }

@@ -6,26 +6,27 @@
   "model": "hp34401a",
   "type": "instrument",
   "version": "1.0.0",
-  "description": "Opens a VISA session to an HP / Agilent 34401A 6\u00bd Digit Multimeter.",
+  "description": "Opens a VISA session to an HP / Agilent 34401A 6½ Digit Multimeter.",
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Mult\u00edmetro Digital Agilent / HP 34401A",
-      "description": "Blocos de driver para mult\u00edmetro digital de bancada de 6\u00bd d\u00edgitos Agilent / HP 34401A."
+      "name": "Multímetro Digital Agilent / HP 34401A",
+      "description": "Blocos de driver para multímetro digital de bancada de 6½ dígitos Agilent / HP 34401A."
     },
     "es": {
-      "name": "Mult\u00edmetro Digital Agilent / HP 34401A",
-      "description": "Bloques de controlador para mult\u00edmetro digital de banco de 6\u00bd d\u00edgitos Agilent / HP 34401A."
+      "name": "Multímetro Digital Agilent / HP 34401A",
+      "description": "Bloques de controlador para multímetro digital de banco de 6½ dígitos Agilent / HP 34401A."
     }
   },
   "hashes": {
-    "driver.py": "9bf48de7975c85ea0a12e297a94b215001db592c9b91bedaacd095d68914f863",
-    "blocks.py": "beb3e0d32ea82149488cd875d1e29376a1ddcd396a9adc187af78ebeb8f47cc8"
-  }
+    "blocks.py": "beb3e0d32ea82149488cd875d1e29376a1ddcd396a9adc187af78ebeb8f47cc8",
+    "driver.py": "9bf48de7975c85ea0a12e297a94b215001db592c9b91bedaacd095d68914f863"
+  },
+  "path": "instruments/agilent/hp34401a"
 }

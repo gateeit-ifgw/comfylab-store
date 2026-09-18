@@ -10,22 +10,23 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Chassi \u00d3ptico Agilent / Keysight 816x",
-      "description": "Blocos de driver para mainframe de testes \u00f3pticos e fontes de laser Agilent / Keysight 816x."
+      "name": "Chassi Óptico Agilent / Keysight 816x",
+      "description": "Blocos de driver para mainframe de testes ópticos e fontes de laser Agilent / Keysight 816x."
     },
     "es": {
-      "name": "Chasis \u00d3ptico Agilent / Keysight 816x",
-      "description": "Bloques de controlador para mainframe de pruebas \u00f3pticas y fuentes de l\u00e1ser Agilent / Keysight 816x."
+      "name": "Chasis Óptico Agilent / Keysight 816x",
+      "description": "Bloques de controlador para mainframe de pruebas ópticas y fuentes de láser Agilent / Keysight 816x."
     }
   },
   "hashes": {
-    "driver.py": "40f13ebe8c50ce5162239c279083b30a162d79395b6f515ca493b79828bf772f",
-    "blocks.py": "88bf53e04963a182d5a04a783cc640e30a391dd64ca3e23d8c4de39f523fefed"
-  }
+    "blocks.py": "88bf53e04963a182d5a04a783cc640e30a391dd64ca3e23d8c4de39f523fefed",
+    "driver.py": "40f13ebe8c50ce5162239c279083b30a162d79395b6f515ca493b79828bf772f"
+  },
+  "path": "instruments/keysight/agilent_816x"
 }

@@ -16,28 +16,29 @@
     "builtin/cluster/fh_export_dataset"
   ],
   "files": [
-    "manifest.json",
-    "fh_setup_instruments.cluster.json",
-    "fh_measure_point.cluster.json",
-    "fh_check_limits.cluster.json",
     "fh_accumulate_data.cluster.json",
-    "fh_export_dataset.cluster.json"
+    "fh_check_limits.cluster.json",
+    "fh_export_dataset.cluster.json",
+    "fh_measure_point.cluster.json",
+    "fh_setup_instruments.cluster.json",
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
       "name": "Clusters do Experimento Franck-Hertz IFGW",
-      "description": "Clusters de configura\u00e7\u00e3o, medi\u00e7\u00e3o, limites de seguran\u00e7a, ac\u00famulo e exporta\u00e7\u00e3o para o experimento IFGW F-740 Franck-Hertz."
+      "description": "Clusters de configuração, medição, limites de segurança, acúmulo e exportação para o experimento IFGW F-740 Franck-Hertz."
     },
     "es": {
       "name": "Clusters del Experimento Franck-Hertz IFGW",
-      "description": "Clusters de configuraci\u00f3n, medici\u00f3n, l\u00edmites de seguridad, acumulaci\u00f3n y exportaci\u00f3n para el experimento IFGW F-740 Franck-Hertz."
+      "description": "Clusters de configuración, medición, límites de seguridad, acumulación y exportación para el experimento IFGW F-740 Franck-Hertz."
     }
   },
   "hashes": {
-    "fh_setup_instruments.cluster.json": "ec01c6670233041ed19a13d24db75fd923c40832bb46539ac80f555632055868",
-    "fh_measure_point.cluster.json": "cff2b8e5acfbdcedf300713050bd5ba3c8438d6c263c5944ad55ff8e148a32da",
-    "fh_check_limits.cluster.json": "78c5fb296b671a09a393c203e26a8a0233b0581e02c797c7a215e2bdf174c493",
-    "fh_accumulate_data.cluster.json": "affe495edcc8ea23f21aa7a83e3c2d2bff73c554d4c540daaa110dd642167b13",
-    "fh_export_dataset.cluster.json": "cb5616bbd964591c202a1308df1c5d677915010b86b42771c926ecd0ca0e0d7d"
-  }
+    "fh_accumulate_data.cluster.json": "61343439bfc1558ae4140ddf7e26e83d725f675fc2d0e146a9e1d82760c747e7",
+    "fh_check_limits.cluster.json": "a5aebfcf935693690df95607f539e090400f1430c2237987fe5d9b2dda8106fe",
+    "fh_export_dataset.cluster.json": "02967f262f778fde3d1f780b45aa72c1f9f8c6a47627bc36a85592d27cc7e530",
+    "fh_measure_point.cluster.json": "49e26d643c97068e23ca14513da03d71b5ae0d9508bcc350d78077b3dde97466",
+    "fh_setup_instruments.cluster.json": "0a92afb001e4f14f2dd5b8d5d7316156ca9e17699c0d72f9d1c9e5febcb78229"
+  },
+  "path": "clusters/ifgw/franck_hertz"
 }

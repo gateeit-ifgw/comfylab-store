@@ -10,9 +10,9 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
@@ -25,7 +25,8 @@
     }
   },
   "hashes": {
-    "driver.py": "9e4adf52bffd22164503454fc8a9ed7336ac981eb205cb16f6f449fa776e54fa",
-    "blocks.py": "53d99321b3c9f87ab36ac2fd14f4a3b4bc66a3db33533c42e433132fe8fa5053"
-  }
+    "blocks.py": "53d99321b3c9f87ab36ac2fd14f4a3b4bc66a3db33533c42e433132fe8fa5053",
+    "driver.py": "9e4adf52bffd22164503454fc8a9ed7336ac981eb205cb16f6f449fa776e54fa"
+  },
+  "path": "instruments/agilent/e4407b"
 }

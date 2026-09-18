@@ -10,9 +10,9 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
@@ -25,7 +25,8 @@
     }
   },
   "hashes": {
-    "driver.py": "961b1fe70f4b7d53f9a80d765cb35dd363cc1729b4ec50b72aa6b37d291ef86f",
-    "blocks.py": "9d263dcfaa8bf00f2bdac10037cf53dfe5756456749822303fb4a50e61e901d0"
-  }
+    "blocks.py": "9d263dcfaa8bf00f2bdac10037cf53dfe5756456749822303fb4a50e61e901d0",
+    "driver.py": "961b1fe70f4b7d53f9a80d765cb35dd363cc1729b4ec50b72aa6b37d291ef86f"
+  },
+  "path": "instruments/keithley/k2400"
 }

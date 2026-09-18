@@ -18,31 +18,30 @@
       "version": "1.0.0",
       "description": "Complete automated Bode Plot frequency response measurement workflow using Minipa MFG-4230 and Tektronix TBS-1062.",
       "author": "Paulo Felipe Jarschel",
-      "path": "blueprints/bode/physical_bode_plot",
       "dependencies": [
         "clusters/bode/physical_setup",
         "instruments/minipa/mfg4230",
         "instruments/tektronix/tbs1062"
       ],
-      "provides": [],
       "files": [
-        "manifest.json",
-        "Bode_Plot_Example.json"
+        "Bode_Plot_Example.json",
+        "manifest.json"
       ],
-      "hashes": {
-        "Bode_Plot_Example.json": "0e4f9141a501214353bc235271290420830fab8b771f07145be22ddd28d444c1",
-        "manifest.json": "f47b9ec4a9de0564dc62faffaddcdc32247a9448830aea54f913da035f889112"
-      },
       "i18n": {
         "pt-BR": {
-          "name": "Medi\u00e7\u00e3o de Diagrama de Bode (F\u00edsica)",
-          "description": "Fluxo completo de medi\u00e7\u00e3o automatizada de resposta em frequ\u00eancia (Diagrama de Bode) usando Minipa MFG-4230 e Tektronix TBS-1062."
+          "name": "Medição de Diagrama de Bode (Física)",
+          "description": "Fluxo completo de medição automatizada de resposta em frequência (Diagrama de Bode) usando Minipa MFG-4230 e Tektronix TBS-1062."
         },
         "es": {
-          "name": "Medici\u00f3n de Diagrama de Bode (F\u00edsica)",
-          "description": "Flujo completo de medici\u00f3n automatizada de respuesta en frecuencia (Diagrama de Bode) usando Minipa MFG-4230 y Tektronix TBS-1062."
+          "name": "Medición de Diagrama de Bode (Física)",
+          "description": "Flujo completo de medición automatizada de respuesta en frecuencia (Diagrama de Bode) usando Minipa MFG-4230 y Tektronix TBS-1062."
         }
-      }
+      },
+      "hashes": {
+        "Bode_Plot_Example.json": "0e4f9141a501214353bc235271290420830fab8b771f07145be22ddd28d444c1",
+        "manifest.json": "f5db66ac5d56efabac859f46ad0070fe6fd04958d42053967d083b8c9748e214"
+      },
+      "path": "blueprints/bode/physical_bode_plot"
     },
     {
       "id": "blueprints/horiba/vuv_spectroscopy",
@@ -53,31 +52,30 @@
       "version": "1.0.0",
       "description": "Automated VUV excitation and fluorescence spectroscopy workflow using Horiba H20 UVL monochromator and Tektronix MDO-3040.",
       "author": "Paulo Felipe Jarschel",
-      "path": "blueprints/horiba/vuv_spectroscopy",
       "dependencies": [
         "clusters/horiba/vuv_spectroscopy",
         "instruments/horiba/vuv_excitation",
         "instruments/tektronix/mdo3040"
       ],
-      "provides": [],
       "files": [
-        "manifest.json",
-        "Horiba_H20_UVL_Spectroscopy.json"
+        "Horiba_H20_UVL_Spectroscopy.json",
+        "manifest.json"
       ],
-      "hashes": {
-        "Horiba_H20_UVL_Spectroscopy.json": "8d700bd144e9d57684a71ac8911435c39ccea61e4cf0c4e995429a14828dc581",
-        "manifest.json": "229c01fbde51900825f03e614d86d5244541d19eae04d54691d268172e0aaa0f"
-      },
       "i18n": {
         "pt-BR": {
           "name": "Espectroscopia VUV Horiba H20 UVL",
-          "description": "Fluxo automatizado de espectroscopia de excita\u00e7\u00e3o e fluoresc\u00eancia VUV usando monocromador Horiba H20 UVL e oscilosc\u00f3pio Tektronix MDO-3040."
+          "description": "Fluxo automatizado de espectroscopia de excitação e fluorescência VUV usando monocromador Horiba H20 UVL e osciloscópio Tektronix MDO-3040."
         },
         "es": {
-          "name": "Espectroscop\u00eda VUV Horiba H20 UVL",
-          "description": "Flujo automatizado de espectroscop\u00eda de excitaci\u00f3n y fluorescencia VUV usando monocromador Horiba H20 UVL y osciloscopio Tektronix MDO-3040."
+          "name": "Espectroscopía VUV Horiba H20 UVL",
+          "description": "Flujo automatizado de espectroscopía de excitación y fluorescencia VUV usando monocromador Horiba H20 UVL y osciloscopio Tektronix MDO-3040."
         }
-      }
+      },
+      "hashes": {
+        "Horiba_H20_UVL_Spectroscopy.json": "8d700bd144e9d57684a71ac8911435c39ccea61e4cf0c4e995429a14828dc581",
+        "manifest.json": "c636e114a66a5499db16eea8efe09edb818f2cdf7c0f6ea821fe42ea48e50dad"
+      },
+      "path": "blueprints/horiba/vuv_spectroscopy"
     },
     {
       "id": "blueprints/ifgw/franck_hertz",
@@ -88,29 +86,28 @@
       "version": "1.0.0",
       "description": "Complete automated Franck-Hertz mercury resonance curve measurement workflow with real-time plotting, safety limit monitoring, and dataset export.",
       "author": "Paulo Felipe Jarschel",
-      "path": "blueprints/ifgw/franck_hertz",
       "dependencies": [
         "clusters/ifgw/franck_hertz"
       ],
-      "provides": [],
       "files": [
-        "manifest.json",
-        "IFGW-F740_FranckHertz.json"
+        "IFGW-F740_FranckHertz.json",
+        "manifest.json"
       ],
-      "hashes": {
-        "IFGW-F740_FranckHertz.json": "c8606a882cfe95de168c898c04d598b8037fd80ea49a155aa72633b413189a9b",
-        "manifest.json": "f130548e21e5742ee1d881a24b0f6e142180a5f84e19cf3e0b924fbdc4e6880a"
-      },
       "i18n": {
         "pt-BR": {
           "name": "Experimento Franck-Hertz IFGW F-740",
-          "description": "Fluxo automatizado de medi\u00e7\u00e3o da curva de resson\u00e2ncia do merc\u00fario (Franck-Hertz) com gr\u00e1ficos em tempo real, monitoramento de limites de seguran\u00e7a e exporta\u00e7\u00e3o de dados."
+          "description": "Fluxo automatizado de medição da curva de ressonância do mercúrio (Franck-Hertz) com gráficos em tempo real, monitoramento de limites de segurança e exportação de dados."
         },
         "es": {
           "name": "Experimento Franck-Hertz IFGW F-740",
-          "description": "Flujo automatizado de medici\u00f3n de la curva de resonancia de mercurio (Franck-Hertz) con gr\u00e1ficos en tiempo real, monitoreo de l\u00edmites de seguridad y exportaci\u00f3n de datos."
+          "description": "Flujo automatizado de medición de la curva de resonancia de mercurio (Franck-Hertz) con gráficos en tiempo real, monitoreo de límites de seguridad y exportación de datos."
         }
-      }
+      },
+      "hashes": {
+        "IFGW-F740_FranckHertz.json": "c8606a882cfe95de168c898c04d598b8037fd80ea49a155aa72633b413189a9b",
+        "manifest.json": "645412a3143cc6aae0cf6c89426c62514ac6d524137024edb888e080984b6e47"
+      },
+      "path": "blueprints/ifgw/franck_hertz"
     },
     {
       "id": "clusters/bode/physical_setup",
@@ -121,7 +118,6 @@
       "version": "1.0.0",
       "description": "Instrument setup and point measurement clusters for Bode Plot using Minipa MFG-4230 and Tektronix TBS-1062.",
       "author": "Paulo Felipe Jarschel",
-      "path": "clusters/bode/physical_setup",
       "dependencies": [
         "instruments/minipa/mfg4230",
         "instruments/tektronix/tbs1062"
@@ -131,25 +127,26 @@
         "builtin/cluster/bode_measure_point"
       ],
       "files": [
-        "manifest.json",
+        "bode_measure_point.cluster.json",
         "bode_setup_instruments.cluster.json",
-        "bode_measure_point.cluster.json"
+        "manifest.json"
       ],
-      "hashes": {
-        "bode_setup_instruments.cluster.json": "c763f03598007c2281d3cc88df6e6ccff79ca103ec9aaf2e52f0187667cfa20d",
-        "bode_measure_point.cluster.json": "b02565e60b34d19a31b21d0b096b4d55492300f9d505fd860b4c11dbbe3dd177",
-        "manifest.json": "aa0a16f082cc9d858dc190e24a7a8c8dd3d65e3f876f06cce0a770ab0c29bbfc"
-      },
       "i18n": {
         "pt-BR": {
-          "name": "Clusters do Setup F\u00edsico de Bode",
-          "description": "Clusters de inicializa\u00e7\u00e3o de instrumentos e medi\u00e7\u00e3o ponto a ponto de diagrama de Bode usando Minipa MFG-4230 e Tektronix TBS-1062."
+          "name": "Clusters do Setup Físico de Bode",
+          "description": "Clusters de inicialização de instrumentos e medição ponto a ponto de diagrama de Bode usando Minipa MFG-4230 e Tektronix TBS-1062."
         },
         "es": {
-          "name": "Clusters de Setup F\u00edsico de Bode",
-          "description": "Clusters de inicializaci\u00f3n de instrumentos y medici\u00f3n punto a punto de diagrama de Bode usando Minipa MFG-4230 y Tektronix TBS-1062."
+          "name": "Clusters de Setup Físico de Bode",
+          "description": "Clusters de inicialización de instrumentos y medición punto a punto de diagrama de Bode usando Minipa MFG-4230 y Tektronix TBS-1062."
         }
-      }
+      },
+      "hashes": {
+        "bode_measure_point.cluster.json": "fc6e0fafbaef51c1c154ab595720e1f68783fe83d351786dbb0c50c63e3a7930",
+        "bode_setup_instruments.cluster.json": "31be2d15d0ac5f72834a799af084452564a75c9dd15a90af0a705810915d5a38",
+        "manifest.json": "f0ff3e38cb13efd568c4dff65de614ffde742ceb0326031e8d452bec09660050"
+      },
+      "path": "clusters/bode/physical_setup"
     },
     {
       "id": "clusters/horiba/vuv_spectroscopy",
@@ -160,7 +157,6 @@
       "version": "1.0.0",
       "description": "Setup, measurement, accumulation, and export clusters for Horiba H20 UVL monochromator and Tektronix MDO-3040.",
       "author": "Paulo Felipe Jarschel",
-      "path": "clusters/horiba/vuv_spectroscopy",
       "dependencies": [
         "instruments/horiba/vuv_excitation",
         "instruments/tektronix/mdo3040"
@@ -173,28 +169,29 @@
       ],
       "files": [
         "manifest.json",
-        "vuv_setup_instruments.cluster.json",
-        "vuv_measure_point.cluster.json",
         "vuv_accumulate_data.cluster.json",
-        "vuv_export_dataset.cluster.json"
+        "vuv_export_dataset.cluster.json",
+        "vuv_measure_point.cluster.json",
+        "vuv_setup_instruments.cluster.json"
       ],
-      "hashes": {
-        "vuv_setup_instruments.cluster.json": "8a33a30514ad98a484f2734cc2545dee8a3920eecf023783d9633d3465817c63",
-        "vuv_measure_point.cluster.json": "07cb8dc3610ebf581ccbd951d56cf5a36f560bca16161223aae606a81768d4ca",
-        "vuv_accumulate_data.cluster.json": "601a8cf9bf3ead669135379836bb7e09631ea21f5e593ef65dbdd6e1b94315c9",
-        "vuv_export_dataset.cluster.json": "0140f61333df0db15c1f27d81379303677d13c4951a509d4af69e441009773bb",
-        "manifest.json": "4d5d7efd55cd1fe4eb0dd129aaa03c5f0e73e9cd55e8465d791cbcf9ef16b7bc"
-      },
       "i18n": {
         "pt-BR": {
           "name": "Clusters de Espectroscopia Horiba VUV",
-          "description": "Clusters de controle de monocromador, aquisi\u00e7\u00e3o de formas de onda, ac\u00famulo de dados e exporta\u00e7\u00e3o em CSV para espectroscopia Horiba VUV."
+          "description": "Clusters de controle de monocromador, aquisição de formas de onda, acúmulo de dados e exportação em CSV para espectroscopia Horiba VUV."
         },
         "es": {
-          "name": "Clusters de Espectroscop\u00eda Horiba VUV",
-          "description": "Clusters de control de monocromador, adquisici\u00f3n de formas de onda, acumulaci\u00f3n de datos y exportaci\u00f3n en CSV para espectroscop\u00eda Horiba VUV."
+          "name": "Clusters de Espectroscopía Horiba VUV",
+          "description": "Clusters de control de monocromador, adquisición de formas de onda, acumulación de datos y exportación en CSV para espectroscopía Horiba VUV."
         }
-      }
+      },
+      "hashes": {
+        "vuv_accumulate_data.cluster.json": "b52d803c1071ff73359430ccb68ba10940008f68a03580f15a86d87f01935649",
+        "vuv_export_dataset.cluster.json": "fbd65b4f2dbbb6dc00f8c8978280395d2f24be2b324ac4b23558a0973812a383",
+        "vuv_measure_point.cluster.json": "337ac8622c1727b80ffece4eba495f0f37e13793983ce03a3559eb35b24614ec",
+        "vuv_setup_instruments.cluster.json": "9d19bf7d031bab9c0b74f463e0d6f418569b22306b049a100e6844e7b9f24090",
+        "manifest.json": "f83e6e39d405b93b50b83a81bac71745a6f6cad2c15cc0fde1526b1e34d1310b"
+      },
+      "path": "clusters/horiba/vuv_spectroscopy"
     },
     {
       "id": "clusters/ifgw/franck_hertz",
@@ -205,7 +202,6 @@
       "version": "1.0.0",
       "description": "Setup, point acquisition, limit checking, array accumulation, and dataset export clusters for the IFGW F-740 Franck-Hertz experiment using serial communication.",
       "author": "Paulo Felipe Jarschel",
-      "path": "clusters/ifgw/franck_hertz",
       "dependencies": [],
       "provides": [
         "builtin/cluster/fh_setup_instruments",
@@ -215,135 +211,115 @@
         "builtin/cluster/fh_export_dataset"
       ],
       "files": [
-        "manifest.json",
-        "fh_setup_instruments.cluster.json",
-        "fh_measure_point.cluster.json",
-        "fh_check_limits.cluster.json",
         "fh_accumulate_data.cluster.json",
-        "fh_export_dataset.cluster.json"
+        "fh_check_limits.cluster.json",
+        "fh_export_dataset.cluster.json",
+        "fh_measure_point.cluster.json",
+        "fh_setup_instruments.cluster.json",
+        "manifest.json"
       ],
-      "hashes": {
-        "fh_setup_instruments.cluster.json": "ec01c6670233041ed19a13d24db75fd923c40832bb46539ac80f555632055868",
-        "fh_measure_point.cluster.json": "cff2b8e5acfbdcedf300713050bd5ba3c8438d6c263c5944ad55ff8e148a32da",
-        "fh_check_limits.cluster.json": "78c5fb296b671a09a393c203e26a8a0233b0581e02c797c7a215e2bdf174c493",
-        "fh_accumulate_data.cluster.json": "affe495edcc8ea23f21aa7a83e3c2d2bff73c554d4c540daaa110dd642167b13",
-        "fh_export_dataset.cluster.json": "cb5616bbd964591c202a1308df1c5d677915010b86b42771c926ecd0ca0e0d7d",
-        "manifest.json": "6370f3806f5a0c77613d31f963cc7fc089b2b4f79f6e308bb665ccf1c9684f51"
-      },
       "i18n": {
         "pt-BR": {
           "name": "Clusters do Experimento Franck-Hertz IFGW",
-          "description": "Clusters de configura\u00e7\u00e3o, medi\u00e7\u00e3o, limites de seguran\u00e7a, ac\u00famulo e exporta\u00e7\u00e3o para o experimento IFGW F-740 Franck-Hertz."
+          "description": "Clusters de configuração, medição, limites de segurança, acúmulo e exportação para o experimento IFGW F-740 Franck-Hertz."
         },
         "es": {
           "name": "Clusters del Experimento Franck-Hertz IFGW",
-          "description": "Clusters de configuraci\u00f3n, medici\u00f3n, l\u00edmites de seguridad, acumulaci\u00f3n y exportaci\u00f3n para el experimento IFGW F-740 Franck-Hertz."
+          "description": "Clusters de configuración, medición, límites de seguridad, acumulación y exportación para el experimento IFGW F-740 Franck-Hertz."
         }
-      }
+      },
+      "hashes": {
+        "fh_accumulate_data.cluster.json": "61343439bfc1558ae4140ddf7e26e83d725f675fc2d0e146a9e1d82760c747e7",
+        "fh_check_limits.cluster.json": "a5aebfcf935693690df95607f539e090400f1430c2237987fe5d9b2dda8106fe",
+        "fh_export_dataset.cluster.json": "02967f262f778fde3d1f780b45aa72c1f9f8c6a47627bc36a85592d27cc7e530",
+        "fh_measure_point.cluster.json": "49e26d643c97068e23ca14513da03d71b5ae0d9508bcc350d78077b3dde97466",
+        "fh_setup_instruments.cluster.json": "0a92afb001e4f14f2dd5b8d5d7316156ca9e17699c0d72f9d1c9e5febcb78229",
+        "manifest.json": "e7008b146083336ebb5f97a5e1aa311e1f1d830916732837ed52f28ee7f6bdd9"
+      },
+      "path": "clusters/ifgw/franck_hertz"
     },
     {
       "id": "instruments/advantest/q8384",
       "name": "Advantest Q8384",
       "vendor": "Advantest",
       "vendor_slug": "advantest",
+      "model": "q8384",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to an Advantest Q8384 Optical Spectrum Analyzer.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/advantest/q8384",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "663c7c43dff9c7603f9768f15ec88162d056bab7109bac2145c258d5ae202860",
-        "blocks.py": "9045e6de708164bd5c4f8848cc74e728956b500b55be1c10eff24bb60ef38d62",
-        "manifest.json": "2fd05129d73005bd8d632acaa10782f6fb534b5251740ff8173d71c95b161f58"
-      },
-      "provides": [
-        "devices/advantest/q8384/acquire",
-        "devices/advantest/q8384/connect",
-        "devices/advantest/q8384/sweep_and_acquire",
-        "devices/advantest/q8384/sweep_config"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Analisador de Espectro \u00d3ptico Advantest Q8384",
-          "description": "Blocos de driver para analisador de espectro \u00f3ptico (OSA) de alta resolu\u00e7\u00e3o Advantest Q8384."
+          "name": "Analisador de Espectro Óptico Advantest Q8384",
+          "description": "Blocos de driver para analisador de espectro óptico (OSA) de alta resolução Advantest Q8384."
         },
         "es": {
-          "name": "Analizador de Espectro \u00d3ptico Advantest Q8384",
-          "description": "Bloques de controlador para analizador de espectro \u00f3ptico (OSA) de alta resoluci\u00f3n Advantest Q8384."
+          "name": "Analizador de Espectro Óptico Advantest Q8384",
+          "description": "Bloques de controlador para analizador de espectro óptico (OSA) de alta resolución Advantest Q8384."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "9045e6de708164bd5c4f8848cc74e728956b500b55be1c10eff24bb60ef38d62",
+        "driver.py": "663c7c43dff9c7603f9768f15ec88162d056bab7109bac2145c258d5ae202860",
+        "manifest.json": "de7351b63ed46f914637da30a6640a60b142d446eb51ee15fc508558ad52ff1c"
+      },
+      "path": "instruments/advantest/q8384"
     },
     {
       "id": "instruments/agilent/a33220a",
       "name": "Agilent 33220A",
       "vendor": "Agilent Technologies",
       "vendor_slug": "agilent",
+      "model": "a33220a",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to an Agilent 33220A Function Generator. On teardown, turns output OFF.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/agilent/a33220a",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "b23b75a27cff0f5ff004720d7bc5b2a0a4fe47ed94a78e6560a95589058cb3bc",
-        "blocks.py": "3424225e347c0533fbc91288895fc6176c33a2602e93bb74dd5fd8f54de05388",
-        "manifest.json": "bca984483ba0f286107baa3bf4e5dc3c587ef2c4b2165d25b039cf0ed6cd471e"
-      },
-      "provides": [
-        "devices/agilent/a33220a/connect",
-        "devices/agilent/a33220a/output",
-        "devices/agilent/a33220a/pulse",
-        "devices/agilent/a33220a/sweep",
-        "devices/agilent/a33220a/wave"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Gerador de Fun\u00e7\u00f5es Agilent 33220A",
-          "description": "Blocos de driver para gerador de fun\u00e7\u00f5es arbitr\u00e1rio Agilent 33220A (20 MHz)."
+          "name": "Gerador de Funções Agilent 33220A",
+          "description": "Blocos de driver para gerador de funções arbitrário Agilent 33220A (20 MHz)."
         },
         "es": {
           "name": "Generador de Funciones Agilent 33220A",
           "description": "Bloques de controlador para generador de funciones arbitrario Agilent 33220A (20 MHz)."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "3424225e347c0533fbc91288895fc6176c33a2602e93bb74dd5fd8f54de05388",
+        "driver.py": "b23b75a27cff0f5ff004720d7bc5b2a0a4fe47ed94a78e6560a95589058cb3bc",
+        "manifest.json": "d3acf5a314a238fe853f906ffd8cce38d44a87caaf1207d03e4708be3e44f108"
+      },
+      "path": "instruments/agilent/a33220a"
     },
     {
       "id": "instruments/agilent/e4407b",
       "name": "Agilent E4407B",
       "vendor": "Agilent Technologies",
       "vendor_slug": "agilent",
+      "model": "e4407b",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to an Agilent E4407B / ESA Series Electrical Spectrum Analyzer.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/agilent/e4407b",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "9e4adf52bffd22164503454fc8a9ed7336ac981eb205cb16f6f449fa776e54fa",
-        "blocks.py": "53d99321b3c9f87ab36ac2fd14f4a3b4bc66a3db33533c42e433132fe8fa5053",
-        "manifest.json": "8e87c8a346623c7e5debbfdbd99e3d56e058654437dc395e5e7a4153879b7a3e"
-      },
-      "provides": [
-        "devices/agilent/e4407b/acquire",
-        "devices/agilent/e4407b/connect",
-        "devices/agilent/e4407b/sweep_config"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Analisador de Espectro Agilent E4407B",
@@ -353,70 +329,63 @@
           "name": "Analizador de Espectro Agilent E4407B",
           "description": "Bloques de controlador para analizador de espectro Agilent ESA-E E4407B (9 kHz a 26.5 GHz)."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "53d99321b3c9f87ab36ac2fd14f4a3b4bc66a3db33533c42e433132fe8fa5053",
+        "driver.py": "9e4adf52bffd22164503454fc8a9ed7336ac981eb205cb16f6f449fa776e54fa",
+        "manifest.json": "6c54ad9a97b367289ac8cae5824a5293d5c728590e8d42df58b3307fc8173b41"
+      },
+      "path": "instruments/agilent/e4407b"
     },
     {
       "id": "instruments/agilent/hp34401a",
       "name": "HP 34401A DMM",
       "vendor": "Agilent Technologies",
       "vendor_slug": "agilent",
+      "model": "hp34401a",
       "type": "instrument",
       "version": "1.0.0",
-      "description": "Opens a VISA session to an HP / Agilent 34401A 6\u00bd Digit Multimeter.",
+      "description": "Opens a VISA session to an HP / Agilent 34401A 6½ Digit Multimeter.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/agilent/hp34401a",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "9bf48de7975c85ea0a12e297a94b215001db592c9b91bedaacd095d68914f863",
-        "blocks.py": "beb3e0d32ea82149488cd875d1e29376a1ddcd396a9adc187af78ebeb8f47cc8",
-        "manifest.json": "87e0ddc0fc0f65894bb985307aaa445859d2e239e7ab884bb9b53c6c32398e15"
-      },
-      "provides": [
-        "devices/agilent/hp34401a/connect",
-        "devices/agilent/hp34401a/measure"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Mult\u00edmetro Digital Agilent / HP 34401A",
-          "description": "Blocos de driver para mult\u00edmetro digital de bancada de 6\u00bd d\u00edgitos Agilent / HP 34401A."
+          "name": "Multímetro Digital Agilent / HP 34401A",
+          "description": "Blocos de driver para multímetro digital de bancada de 6½ dígitos Agilent / HP 34401A."
         },
         "es": {
-          "name": "Mult\u00edmetro Digital Agilent / HP 34401A",
-          "description": "Bloques de controlador para mult\u00edmetro digital de banco de 6\u00bd d\u00edgitos Agilent / HP 34401A."
+          "name": "Multímetro Digital Agilent / HP 34401A",
+          "description": "Bloques de controlador para multímetro digital de banco de 6½ dígitos Agilent / HP 34401A."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "beb3e0d32ea82149488cd875d1e29376a1ddcd396a9adc187af78ebeb8f47cc8",
+        "driver.py": "9bf48de7975c85ea0a12e297a94b215001db592c9b91bedaacd095d68914f863",
+        "manifest.json": "88860e08dbec08a822d50d570648ef6063bea008849a99bd7b38adf3cb2af076"
+      },
+      "path": "instruments/agilent/hp34401a"
     },
     {
       "id": "instruments/bk_precision/bk4052",
       "name": "BK Precision 4052",
       "vendor": "BK Precision",
       "vendor_slug": "bk_precision",
+      "model": "bk4052",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a BK Precision 4052 function generator. On teardown, disables output.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/bk_precision/bk4052",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "1f1eb9e83a072a0db52c20ab8232fbf2160af8bebb4bda9ab0bbc27a452dcbf7",
-        "blocks.py": "67417de865489f2c3f58b14e6f0557ac59791f4afabb7a8cbdd64548ef383c2d",
-        "manifest.json": "c7c427b88f3138560dec58d0f18460feeaa1b65216b66ad787491d1c8cee2af7"
-      },
-      "provides": [
-        "devices/bk_precision/bk4052/config_wave",
-        "devices/bk_precision/bk4052/connect",
-        "devices/bk_precision/bk4052/output"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Gerador de Formas de Onda BK Precision 4052",
@@ -426,77 +395,63 @@
           "name": "Generador de Formas de Onda BK Precision 4052",
           "description": "Bloques de controlador para generador de formas de onda de doble canal BK Precision 4052."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "67417de865489f2c3f58b14e6f0557ac59791f4afabb7a8cbdd64548ef383c2d",
+        "driver.py": "1f1eb9e83a072a0db52c20ab8232fbf2160af8bebb4bda9ab0bbc27a452dcbf7",
+        "manifest.json": "652f36a5a421208575065154e98b34cd78774d8b7e5f1cb38c622645750e199e"
+      },
+      "path": "instruments/bk_precision/bk4052"
     },
     {
       "id": "instruments/caen/dt5720b",
       "name": "CAEN DT5720B Digitizer",
       "vendor": "CAEN",
       "vendor_slug": "caen",
+      "model": "dt5720b",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a connection to a CAEN DT5720B digitizer via USB or Optical Link.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/caen/dt5720b",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "570e311c3f9f449081e2625df471544864a85d523e925616dbfa266140451c81",
-        "blocks.py": "475a1eba4b0fd0948dd6d229f4caea2b19e64af05327174c24ee8a2a6f34f2c6",
-        "manifest.json": "720b21cea242a84aa032de4f02e214d9ab27037202bc51be18af31d9c0a19efb"
-      },
-      "provides": [
-        "devices/caen/dt5720b/acquire",
-        "devices/caen/dt5720b/channel",
-        "devices/caen/dt5720b/configure",
-        "devices/caen/dt5720b/connect",
-        "devices/caen/dt5720b/pulse_stats"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Digitalizador CAEN DT5720B",
-          "description": "Blocos de driver para digitalizador de pulsos e f\u00edsica nuclear CAEN DT5720B."
+          "description": "Blocos de driver para digitalizador de pulsos e física nuclear CAEN DT5720B."
         },
         "es": {
           "name": "Digitalizador CAEN DT5720B",
-          "description": "Bloques de controlador para digitalizador de pulsos y f\u00edsica nuclear CAEN DT5720B."
+          "description": "Bloques de controlador para digitalizador de pulsos y física nuclear CAEN DT5720B."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "475a1eba4b0fd0948dd6d229f4caea2b19e64af05327174c24ee8a2a6f34f2c6",
+        "driver.py": "570e311c3f9f449081e2625df471544864a85d523e925616dbfa266140451c81",
+        "manifest.json": "5b01468766ab691cdf8756683417809d73ec22ea3e147cc0422b1f95875a396b"
+      },
+      "path": "instruments/caen/dt5720b"
     },
     {
       "id": "instruments/coherent/ws1000a",
       "name": "Coherent WaveShaper 1000A",
       "vendor": "Coherent",
       "vendor_slug": "coherent",
+      "model": "ws1000a",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a connection to a Coherent / Finisar WaveShaper 1000A Optical Filter via its embedded HTTP web API.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/coherent/ws1000a",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "65e5570a95678c37d9a59db5b27f1c1ef892291aa68ab59567c2a27a7ea4aff9",
-        "blocks.py": "8b9c673ac235419b49116de351671a4c82959ccf8b0e2b1c8826308d6f4415ad",
-        "manifest.json": "5b78b606211351913bf7d62c14df7c0abe7957baf861489dbedcef77d4aee342"
-      },
-      "provides": [
-        "devices/coherent/ws1000a/connect",
-        "devices/coherent/ws1000a/custom_filter",
-        "devices/coherent/ws1000a/get_info",
-        "devices/coherent/ws1000a/get_profile",
-        "devices/coherent/ws1000a/predefined_filter",
-        "devices/coherent/ws1000a/shutter",
-        "devices/coherent/ws1000a/upload_file"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Medidor de Comprimento de Onda Coherent WaveMaster",
@@ -504,114 +459,98 @@
         },
         "es": {
           "name": "Medidor de Longitud de Onda Coherent WaveMaster",
-          "description": "Bloques de controlador para medidor de longitud de onda l\u00e1ser Coherent WaveMaster (WS-1000A)."
+          "description": "Bloques de controlador para medidor de longitud de onda láser Coherent WaveMaster (WS-1000A)."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "8b9c673ac235419b49116de351671a4c82959ccf8b0e2b1c8826308d6f4415ad",
+        "driver.py": "65e5570a95678c37d9a59db5b27f1c1ef892291aa68ab59567c2a27a7ea4aff9",
+        "manifest.json": "8f1cf0bc9cd97d46a9f23c3f58981a172c579f52e16b835bc2b52f16fcdcb8c7"
+      },
+      "path": "instruments/coherent/ws1000a"
     },
     {
       "id": "instruments/horiba/vuv_excitation",
       "name": "Horiba VUV Monochromator",
       "vendor": "Horiba",
       "vendor_slug": "horiba",
+      "model": "vuv_excitation",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a session to a Horiba VUV Monochromator system via ActiveX/COM or simulation.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/horiba/vuv_excitation",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "7537b1871627debab229d97c6dfdba4a4c2c8b5a94ba01d0214997245810522c",
-        "blocks.py": "e7354dd7eec40c74f38dc8ab2899cf11e0af3132c2bb20563ed5d9244b9e6323",
-        "manifest.json": "d89a50947f075d65c016134f56a00846367de12760b1704e97085436dc0dbb7e"
-      },
-      "provides": [
-        "devices/horiba/vuv_excitation/connect",
-        "devices/horiba/vuv_excitation/grating",
-        "devices/horiba/vuv_excitation/mirror",
-        "devices/horiba/vuv_excitation/slit",
-        "devices/horiba/vuv_excitation/wavelength"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Monocromador VUV Horiba H20 UVL",
-          "description": "Blocos de driver para monocromador de v\u00e1cuo ultravioleta Horiba H20 UVL."
+          "description": "Blocos de driver para monocromador de vácuo ultravioleta Horiba H20 UVL."
         },
         "es": {
           "name": "Monocromador VUV Horiba H20 UVL",
-          "description": "Bloques de controlador para monocromador de vac\u00edo ultravioleta Horiba H20 UVL."
+          "description": "Bloques de controlador para monocromador de vacío ultravioleta Horiba H20 UVL."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "e7354dd7eec40c74f38dc8ab2899cf11e0af3132c2bb20563ed5d9244b9e6323",
+        "driver.py": "7537b1871627debab229d97c6dfdba4a4c2c8b5a94ba01d0214997245810522c",
+        "manifest.json": "90fe8db5d710ee6552be182168a01ea4e31d4a639ad2d9e3366a4bf525e4a176"
+      },
+      "path": "instruments/horiba/vuv_excitation"
     },
     {
       "id": "instruments/keithley/k2231a",
       "name": "Keithley 2231A",
       "vendor": "Keithley Instruments",
       "vendor_slug": "keithley",
+      "model": "k2231a",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Keithley 2231A-30-3 DC Power Supply. On teardown, turns outputs OFF.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/keithley/k2231a",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "b1c7ba058f0fc12072805a80f51dcbed7fb988f1c80532914c4e4817ab040583",
-        "blocks.py": "98a1b8d2011ed236e56648d0711f20c55d6ede72985fa223126ff728d2d317a7",
-        "manifest.json": "7d81db18eee574d999f59480a4b11b826cfee2c5b8912fd34e2ccf141330e973"
-      },
-      "provides": [
-        "devices/keithley/k2231a/channel",
-        "devices/keithley/k2231a/connect",
-        "devices/keithley/k2231a/measure",
-        "devices/keithley/k2231a/measure_all",
-        "devices/keithley/k2231a/output"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Fonte DC Keithley 2231A",
-          "description": "Blocos de driver para fonte de alimenta\u00e7\u00e3o DC program\u00e1vel de 3 canais Keithley 2231A."
+          "description": "Blocos de driver para fonte de alimentação DC programável de 3 canais Keithley 2231A."
         },
         "es": {
           "name": "Fuente DC Keithley 2231A",
-          "description": "Bloques de controlador para fuente de alimentaci\u00f3n DC programable de 3 canales Keithley 2231A."
+          "description": "Bloques de controlador para fuente de alimentación DC programable de 3 canales Keithley 2231A."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "98a1b8d2011ed236e56648d0711f20c55d6ede72985fa223126ff728d2d317a7",
+        "driver.py": "b1c7ba058f0fc12072805a80f51dcbed7fb988f1c80532914c4e4817ab040583",
+        "manifest.json": "f6c449c807327fbbe1d4d910981ee9c2496d0b3268cfd741cfd972fbfaae28f5"
+      },
+      "path": "instruments/keithley/k2231a"
     },
     {
       "id": "instruments/keithley/k2400",
       "name": "Keithley 2400 SMU",
       "vendor": "Keithley Instruments",
       "vendor_slug": "keithley",
+      "model": "k2400",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Keithley 2400/2450 SMU. On teardown, turns output OFF.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/keithley/k2400",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "961b1fe70f4b7d53f9a80d765cb35dd363cc1729b4ec50b72aa6b37d291ef86f",
-        "blocks.py": "9d263dcfaa8bf00f2bdac10037cf53dfe5756456749822303fb4a50e61e901d0",
-        "manifest.json": "e33ed04c4182d2f023692a46870581f8003522c79c20dea85b8dc710ac0a5b4c"
-      },
-      "provides": [
-        "devices/keithley/k2400/connect",
-        "devices/keithley/k2400/read",
-        "devices/keithley/k2400/source_voltage"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Fonte e Medidor (SMU) Keithley 2400",
@@ -621,413 +560,360 @@
           "name": "Fuente y Medidor (SMU) Keithley 2400",
           "description": "Bloques de controlador para unidad de fuente y medida (SMU) Keithley 2400."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "9d263dcfaa8bf00f2bdac10037cf53dfe5756456749822303fb4a50e61e901d0",
+        "driver.py": "961b1fe70f4b7d53f9a80d765cb35dd363cc1729b4ec50b72aa6b37d291ef86f",
+        "manifest.json": "39d05b5fd16dd7b0dfb6d8d8d6fa58eff9b21cac9746f4568dfe48f764e8b269"
+      },
+      "path": "instruments/keithley/k2400"
     },
     {
       "id": "instruments/keopsys/edfa",
       "name": "Keopsys EDFA",
       "vendor": "Keopsys",
       "vendor_slug": "keopsys",
+      "model": "edfa",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Keopsys EDFA. On teardown, turns pump diode OFF.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/keopsys/edfa",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "939b1b1cc8b0781c04a191d7703896db210740cdf891dda35bc020563cd9e759",
-        "blocks.py": "b25cba5b63b8479058368df3e4a38eab7749f41ec141b1d30f6649d6b46d0546",
-        "manifest.json": "cdbdb21245ee01e192e78d58749a86a41cf3b62a079ea948eb7ea65a2627c114"
-      },
-      "provides": [
-        "devices/keopsys/edfa/config",
-        "devices/keopsys/edfa/connect"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Amplificador \u00d3ptico EDFA Keopsys",
-          "description": "Blocos de driver para amplificador \u00f3ptico de fibra dopada com \u00e9rbio (EDFA) Keopsys."
+          "name": "Amplificador Óptico EDFA Keopsys",
+          "description": "Blocos de driver para amplificador óptico de fibra dopada com érbio (EDFA) Keopsys."
         },
         "es": {
-          "name": "Amplificador \u00d3ptico EDFA Keopsys",
-          "description": "Bloques de controlador para amplificador \u00f3ptico de fibra dopada con erbio (EDFA) Keopsys."
+          "name": "Amplificador Óptico EDFA Keopsys",
+          "description": "Bloques de controlador para amplificador óptico de fibra dopada con erbio (EDFA) Keopsys."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "b25cba5b63b8479058368df3e4a38eab7749f41ec141b1d30f6649d6b46d0546",
+        "driver.py": "939b1b1cc8b0781c04a191d7703896db210740cdf891dda35bc020563cd9e759",
+        "manifest.json": "b80ba84f94b398179531565a8ce12534884b9db9efb8defdd6bf8285477ce0d7"
+      },
+      "path": "instruments/keopsys/edfa"
     },
     {
       "id": "instruments/keysight/agilent_816x",
       "name": "Keysight 816x",
       "vendor": "Keysight Technologies",
       "vendor_slug": "keysight",
+      "model": "agilent_816x",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Keysight 816x Lightwave Mainframe. On teardown, turns laser output OFF.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/keysight/agilent_816x",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "40f13ebe8c50ce5162239c279083b30a162d79395b6f515ca493b79828bf772f",
-        "blocks.py": "88bf53e04963a182d5a04a783cc640e30a391dd64ca3e23d8c4de39f523fefed",
-        "manifest.json": "89cb02319387e77330a0338becb2d08a70a2f1658a2816adbadd0b0fe2f8850a"
-      },
-      "provides": [
-        "devices/keysight/agilent_816x/connect",
-        "devices/keysight/agilent_816x/laser_config",
-        "devices/keysight/agilent_816x/read_power"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Chassi \u00d3ptico Agilent / Keysight 816x",
-          "description": "Blocos de driver para mainframe de testes \u00f3pticos e fontes de laser Agilent / Keysight 816x."
+          "name": "Chassi Óptico Agilent / Keysight 816x",
+          "description": "Blocos de driver para mainframe de testes ópticos e fontes de laser Agilent / Keysight 816x."
         },
         "es": {
-          "name": "Chasis \u00d3ptico Agilent / Keysight 816x",
-          "description": "Bloques de controlador para mainframe de pruebas \u00f3pticas y fuentes de l\u00e1ser Agilent / Keysight 816x."
+          "name": "Chasis Óptico Agilent / Keysight 816x",
+          "description": "Bloques de controlador para mainframe de pruebas ópticas y fuentes de láser Agilent / Keysight 816x."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "88bf53e04963a182d5a04a783cc640e30a391dd64ca3e23d8c4de39f523fefed",
+        "driver.py": "40f13ebe8c50ce5162239c279083b30a162d79395b6f515ca493b79828bf772f",
+        "manifest.json": "1a64e6cd287a9b77556c58dab204f5d79f082d5babca4c17cc3eddcb44fe0f67"
+      },
+      "path": "instruments/keysight/agilent_816x"
     },
     {
       "id": "instruments/keysight/dsox1204a",
       "name": "Keysight DSOX 1204A",
       "vendor": "Keysight Technologies",
       "vendor_slug": "keysight",
+      "model": "dsox1204a",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Keysight InfiniiVision DSOX 1204A 4-channel oscilloscope.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/keysight/dsox1204a",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "a9b848ef7611029319bb43c9f88fdc4e986071d7daf3a8cc6b7827e163923eb6",
-        "blocks.py": "79112750f16da3463f575ba0c3ca51a64fcba38003ac2f59d04bb04e2d8dd546",
-        "manifest.json": "4085e5dde0e2211004eb7e501f4efbc55a09ca7530c9912ab10279aa364a659c"
-      },
-      "provides": [
-        "devices/keysight/dsox1204a/acquire",
-        "devices/keysight/dsox1204a/channel",
-        "devices/keysight/dsox1204a/connect",
-        "devices/keysight/dsox1204a/measure",
-        "devices/keysight/dsox1204a/timebase",
-        "devices/keysight/dsox1204a/trigger",
-        "devices/keysight/dsox1204a/wavegen"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Oscilosc\u00f3pio Keysight DSOX1204A",
-          "description": "Blocos de driver para oscilosc\u00f3pio digital de 4 canais Keysight InfiniiVision DSOX1204A."
+          "name": "Osciloscópio Keysight DSOX1204A",
+          "description": "Blocos de driver para osciloscópio digital de 4 canais Keysight InfiniiVision DSOX1204A."
         },
         "es": {
           "name": "Osciloscopio Keysight DSOX1204A",
           "description": "Bloques de controlador para osciloscopio digital de 4 canales Keysight InfiniiVision DSOX1204A."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "79112750f16da3463f575ba0c3ca51a64fcba38003ac2f59d04bb04e2d8dd546",
+        "driver.py": "a9b848ef7611029319bb43c9f88fdc4e986071d7daf3a8cc6b7827e163923eb6",
+        "manifest.json": "d82432998fd6d07bc5d0b91e115b1b5c961acc677d6c689253b5c23032af1a52"
+      },
+      "path": "instruments/keysight/dsox1204a"
     },
     {
       "id": "instruments/keysight/dsox3024a",
       "name": "Keysight DSOX 3024A",
       "vendor": "Keysight Technologies",
       "vendor_slug": "keysight",
+      "model": "dsox3024a",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Keysight InfiniiVision DSOX 3024A 4-channel oscilloscope.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/keysight/dsox3024a",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "8dee5eb29d6e0c2b8b7e2495532573d534692ec324a7c761b2f53808b2254cde",
-        "blocks.py": "506f29b494e0911369bb6874bde5344b0b38a9efbfefae27749df7aa580878cd",
-        "manifest.json": "149c53a2085eaa7639fa8cc4d936a2efa54e9ea63a46853773e84c9c88eaad79"
-      },
-      "provides": [
-        "devices/keysight/dsox3024a/acquire",
-        "devices/keysight/dsox3024a/channel",
-        "devices/keysight/dsox3024a/connect",
-        "devices/keysight/dsox3024a/measure",
-        "devices/keysight/dsox3024a/timebase",
-        "devices/keysight/dsox3024a/trigger"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Oscilosc\u00f3pio Keysight DSOX3024A",
-          "description": "Blocos de driver para oscilosc\u00f3pio digital Keysight InfiniiVision DSOX3024A."
+          "name": "Osciloscópio Keysight DSOX3024A",
+          "description": "Blocos de driver para osciloscópio digital Keysight InfiniiVision DSOX3024A."
         },
         "es": {
           "name": "Osciloscopio Keysight DSOX3024A",
           "description": "Bloques de controlador para osciloscopio digital Keysight InfiniiVision DSOX3024A."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "506f29b494e0911369bb6874bde5344b0b38a9efbfefae27749df7aa580878cd",
+        "driver.py": "8dee5eb29d6e0c2b8b7e2495532573d534692ec324a7c761b2f53808b2254cde",
+        "manifest.json": "993338493ceabbee4da629d2db9f78c6794cd1f6a51ec49534892d489c366dc2"
+      },
+      "path": "instruments/keysight/dsox3024a"
     },
     {
       "id": "instruments/keysight/dsox_series",
       "name": "Keysight DSO-X",
       "vendor": "Keysight Technologies",
       "vendor_slug": "keysight",
+      "model": "dsox_series",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Keysight InfiniiVision DSO-X 3000/2000/1000 oscilloscope.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/keysight/dsox_series",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "739e04cb6afde9e85f969180eac14a7b72ad4fa1b7b36e4671391eb6ba39c866",
-        "blocks.py": "ce3a7a61139f95e7aa6ab421fe5ab2511780937bdf02b623302d79e2db13d467",
-        "manifest.json": "616311e18c85a9cf8fd121092f9f2b5970cf38967adb4ae20d08338222ce929c"
-      },
-      "provides": [
-        "devices/keysight/dsox_series/acquire",
-        "devices/keysight/dsox_series/channel",
-        "devices/keysight/dsox_series/connect",
-        "devices/keysight/dsox_series/timebase"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Oscilosc\u00f3pios Keysight S\u00e9rie DSOX",
-          "description": "Blocos de driver universais para oscilosc\u00f3pios da s\u00e9rie Keysight InfiniiVision DSOX."
+          "name": "Osciloscópios Keysight Série DSOX",
+          "description": "Blocos de driver universais para osciloscópios da série Keysight InfiniiVision DSOX."
         },
         "es": {
           "name": "Osciloscopios Keysight Serie DSOX",
           "description": "Bloques de controlador universales para osciloscopios de la serie Keysight InfiniiVision DSOX."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "ce3a7a61139f95e7aa6ab421fe5ab2511780937bdf02b623302d79e2db13d467",
+        "driver.py": "739e04cb6afde9e85f969180eac14a7b72ad4fa1b7b36e4671391eb6ba39c866",
+        "manifest.json": "ddb56b365b60363a0fe8a77eb9a5b991e8f96053d5fad3875ed3cd37fb9f1104"
+      },
+      "path": "instruments/keysight/dsox_series"
     },
     {
       "id": "instruments/keysight/e36234a",
       "name": "Keysight E36234A",
       "vendor": "Keysight Technologies",
       "vendor_slug": "keysight",
+      "model": "e36234a",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Keysight E36234A DC Power Supply. On teardown, turns outputs OFF.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/keysight/e36234a",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "2e6452161735477491ec36f387ae20de59a56bb9895262b2c146f2285c3a33f3",
-        "blocks.py": "8e5e607ca9500222a80bf2978c51bc17b9d8e78dd6c46e9e4109164ccdeef2b7",
-        "manifest.json": "04241b53a42f519c6d26f0dba2e07b8051e65df9766e2ff46b799218e4937a77"
-      },
-      "provides": [
-        "devices/keysight/e36234a/channel",
-        "devices/keysight/e36234a/connect",
-        "devices/keysight/e36234a/measure",
-        "devices/keysight/e36234a/measure_all",
-        "devices/keysight/e36234a/output",
-        "devices/keysight/e36234a/pairing"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Fonte DC Keysight E36234A",
-          "description": "Blocos de driver para fonte DC de canal duplo de alta precis\u00e3o Keysight E36234A."
+          "description": "Blocos de driver para fonte DC de canal duplo de alta precisão Keysight E36234A."
         },
         "es": {
           "name": "Fuente DC Keysight E36234A",
-          "description": "Bloques de controlador para fuente DC de doble canal de alta precisi\u00f3n Keysight E36234A."
+          "description": "Bloques de controlador para fuente DC de doble canal de alta precisión Keysight E36234A."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "8e5e607ca9500222a80bf2978c51bc17b9d8e78dd6c46e9e4109164ccdeef2b7",
+        "driver.py": "2e6452161735477491ec36f387ae20de59a56bb9895262b2c146f2285c3a33f3",
+        "manifest.json": "128615b968278c15e07646abdc9f0dbe0079e1f69d217b9fefd56784df1bdfda"
+      },
+      "path": "instruments/keysight/e36234a"
     },
     {
       "id": "instruments/mcc/mcdaq1208ls",
       "name": "MCC USB-1208LS",
       "vendor": "Measurement Computing (MCC)",
       "vendor_slug": "mcc",
+      "model": "mcdaq1208ls",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to an MCC USB-1208LS DAQ module.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/mcc/mcdaq1208ls",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "03ea004596cd457aa05a78b38a53e4b6a9e37887d7d435a248b353f4d7df32da",
-        "blocks.py": "5d76766e94fa047222cf5ca94e1ed943f4fde98fae3ce1e0aabf1c167da98ab7",
-        "manifest.json": "42947519ff74247661fdc5d1fab55315f514a2a07d4a99549ae2d1732b44247f"
-      },
-      "provides": [
-        "devices/mcc/mcdaq1208ls/analog_read",
-        "devices/mcc/mcdaq1208ls/connect"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Placa DAQ USB MCC USB-1208LS",
-          "description": "Blocos de driver para m\u00f3dulo multifun\u00e7\u00e3o de aquisi\u00e7\u00e3o de dados USB Measurement Computing USB-1208LS."
+          "description": "Blocos de driver para módulo multifunção de aquisição de dados USB Measurement Computing USB-1208LS."
         },
         "es": {
           "name": "Placa DAQ USB MCC USB-1208LS",
-          "description": "Bloques de controlador para m\u00f3dulo multifunci\u00f3n de adquisici\u00f3n de datos USB Measurement Computing USB-1208LS."
+          "description": "Bloques de controlador para módulo multifunción de adquisición de datos USB Measurement Computing USB-1208LS."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "5d76766e94fa047222cf5ca94e1ed943f4fde98fae3ce1e0aabf1c167da98ab7",
+        "driver.py": "03ea004596cd457aa05a78b38a53e4b6a9e37887d7d435a248b353f4d7df32da",
+        "manifest.json": "b5c2b126192289db61104957406fecad07984d00fff0e4403c719846e9199b7c"
+      },
+      "path": "instruments/mcc/mcdaq1208ls"
     },
     {
       "id": "instruments/minipa/mfg4230",
       "name": "Minipa MFG-4230",
       "vendor": "Minipa",
       "vendor_slug": "minipa",
+      "model": "mfg4230",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Minipa MFG-4230 function generator. On teardown, disables output.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/minipa/mfg4230",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "2415fbec128fc4fadaa0040be60661fba78d0445dc204987775d1fab4099e10b",
-        "blocks.py": "913b80c05e1f41d9da7e97774c9488caba79785500181467600abcdbba02147d",
-        "manifest.json": "8caca38a98709659bc088c66ab8eabd2e3f89c2c94a7a7457f9fe9ec2e75a98e"
-      },
-      "provides": [
-        "devices/minipa/mfg4230/config_wave",
-        "devices/minipa/mfg4230/connect",
-        "devices/minipa/mfg4230/output"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Gerador de Fun\u00e7\u00f5es Minipa MFG-4230",
-          "description": "Blocos de driver para gerador de fun\u00e7\u00f5es e formas de onda arbitr\u00e1rias Minipa MFG-4230."
+          "name": "Gerador de Funções Minipa MFG-4230",
+          "description": "Blocos de driver para gerador de funções e formas de onda arbitrárias Minipa MFG-4230."
         },
         "es": {
           "name": "Generador de Funciones Minipa MFG-4230",
           "description": "Bloques de controlador para generador de funciones y formas de onda arbitrarias Minipa MFG-4230."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "913b80c05e1f41d9da7e97774c9488caba79785500181467600abcdbba02147d",
+        "driver.py": "1819f5cd65c028364e0191dd27eb4868b0f3fbddd6844172fc58578055f3df7e",
+        "manifest.json": "fe3f4dfc4e4b33f4fab72c452b3711a809e4cd5ccff67ac98220da76b74f9403"
+      },
+      "path": "instruments/minipa/mfg4230"
     },
     {
       "id": "instruments/ni/nidaqmx_device",
       "name": "NI DAQmx",
       "vendor": "National Instruments",
       "vendor_slug": "ni",
+      "model": "nidaqmx_device",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Initializes an NI-DAQmx hardware session (e.g.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/ni/nidaqmx_device",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "a97f16958deb9c2230c10e7c0cd2e80efc2e6562462399c81af925cc34c22ca5",
-        "blocks.py": "2ce5a4dfd21288d238a5194cbd82d25b80cc9c1fa5097ddec4370b1ca101fd80",
-        "manifest.json": "c2b65e226be26f5fa11b575ada37921d93ff2897a3dbdf0f2781f7adb6af884e"
-      },
-      "provides": [
-        "devices/ni/nidaqmx/analog_read",
-        "devices/ni/nidaqmx/analog_write",
-        "devices/ni/nidaqmx/connect"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Dispositivo NI-DAQmx National Instruments",
-          "description": "Blocos de driver para canais anal\u00f3gicos e digitais NI-DAQmx da National Instruments."
+          "description": "Blocos de driver para canais analógicos e digitais NI-DAQmx da National Instruments."
         },
         "es": {
           "name": "Dispositivo NI-DAQmx National Instruments",
-          "description": "Bloques de controlador para canales anal\u00f3gicos y digitales NI-DAQmx de National Instruments."
+          "description": "Bloques de controlador para canales analógicos y digitales NI-DAQmx de National Instruments."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "2ce5a4dfd21288d238a5194cbd82d25b80cc9c1fa5097ddec4370b1ca101fd80",
+        "driver.py": "a97f16958deb9c2230c10e7c0cd2e80efc2e6562462399c81af925cc34c22ca5",
+        "manifest.json": "9857a7b60bfac504b39ddf920934c581ea4fcf653cccddae2fb4b5baff3f9711"
+      },
+      "path": "instruments/ni/nidaqmx_device"
     },
     {
       "id": "instruments/owon/dge2000",
       "name": "Owon DGE2000",
       "vendor": "OWON",
       "vendor_slug": "owon",
+      "model": "dge2000",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to an Owon DGE2000 function generator. On teardown, disables output.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/owon/dge2000",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "2b90d7f4c5c7d14ec56c9d741a0c38adef958b92a6f2c954107418a91a86b2f6",
-        "blocks.py": "7928352f7453e0f6e604ca8961df35ad93f5f192a3e6b92b187e6b3b5783275c",
-        "manifest.json": "a0ee5c2320f25711c782c1ea6e4d369f389841b7c57490428a3ff23ca0297370"
-      },
-      "provides": [
-        "devices/owon/dge2000/config_wave",
-        "devices/owon/dge2000/connect",
-        "devices/owon/dge2000/output"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Gerador de Fun\u00e7\u00f5es OWON S\u00e9rie DGE2000",
-          "description": "Blocos de driver para geradores de formas de onda arbitr\u00e1rias da s\u00e9rie OWON DGE2000."
+          "name": "Gerador de Funções OWON Série DGE2000",
+          "description": "Blocos de driver para geradores de formas de onda arbitrárias da série OWON DGE2000."
         },
         "es": {
           "name": "Generador de Funciones OWON Serie DGE2000",
           "description": "Bloques de controlador para generadores de formas de onda arbitrarias de la serie OWON DGE2000."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "7928352f7453e0f6e604ca8961df35ad93f5f192a3e6b92b187e6b3b5783275c",
+        "driver.py": "2b90d7f4c5c7d14ec56c9d741a0c38adef958b92a6f2c954107418a91a86b2f6",
+        "manifest.json": "3b8e3fb7779032490bdde5ad969b88db395903a97d777fe9e9eb512a8763f2c7"
+      },
+      "path": "instruments/owon/dge2000"
     },
     {
       "id": "instruments/srs/sr830",
       "name": "SRS SR830",
       "vendor": "Stanford Research Systems",
       "vendor_slug": "srs",
+      "model": "sr830",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to an SRS SR830/SR850/SR860 Lock-In Amplifier.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/srs/sr830",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "2c9ff0a0ac18e1dd4ee6716416bc6fa89eb80e473b9db1acd924d9917863a4f7",
-        "blocks.py": "3e02d285075e1982fb0f4a9fdd6df52c5043b5c7319aad2c5ff5c4613a9b27f8",
-        "manifest.json": "475e4dd52964453d3150f02a948099e3e836a7071659fd41e11c5e0e9c6249ff"
-      },
-      "provides": [
-        "devices/srs/sr830/connect",
-        "devices/srs/sr830/read",
-        "devices/srs/sr830/reference"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
           "name": "Amplificador Lock-in SRS SR830",
@@ -1037,275 +923,246 @@
           "name": "Amplificador Lock-in SRS SR830",
           "description": "Bloques de controlador para amplificador lock-in de doble DSP Stanford Research Systems SR830."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "3e02d285075e1982fb0f4a9fdd6df52c5043b5c7319aad2c5ff5c4613a9b27f8",
+        "driver.py": "2c9ff0a0ac18e1dd4ee6716416bc6fa89eb80e473b9db1acd924d9917863a4f7",
+        "manifest.json": "e291b3e78c7a1b0c7394a4081c9062cb1ce1106085492d19dc2dcab6589e208f"
+      },
+      "path": "instruments/srs/sr830"
     },
     {
       "id": "instruments/tektronix/mdo3040",
       "name": "Tektronix MDO3040",
       "vendor": "Tektronix",
       "vendor_slug": "tektronix",
+      "model": "mdo3040",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Tektronix MDO3040 oscilloscope / RF spectrum analyzer.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/tektronix/mdo3040",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "0d16750ad4bf0498d047f26214c005009d6f5f53c4be2f2ee25a14d398f79267",
-        "blocks.py": "c435b946be7af215e5699184e6aee3599427e47e97a9460d23d092ac6e027e0f",
-        "manifest.json": "bbd2e50c13d40896dcd4bc93ef080c73bcd8791c93aaf41d666c3702ebd80702"
-      },
-      "provides": [
-        "devices/tektronix/mdo3040/acquire",
-        "devices/tektronix/mdo3040/channel",
-        "devices/tektronix/mdo3040/connect",
-        "devices/tektronix/mdo3040/measure",
-        "devices/tektronix/mdo3040/rf_acquire",
-        "devices/tektronix/mdo3040/timebase",
-        "devices/tektronix/mdo3040/trigger"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Oscilosc\u00f3pio Tektronix MDO3040",
-          "description": "Blocos de driver para oscilosc\u00f3pio de dom\u00ednio misto Tektronix MDO3040."
+          "name": "Osciloscópio Tektronix MDO3040",
+          "description": "Blocos de driver para osciloscópio de domínio misto Tektronix MDO3040."
         },
         "es": {
           "name": "Osciloscopio Tektronix MDO3040",
           "description": "Bloques de controlador para osciloscopio de dominio mixto Tektronix MDO3040."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "c435b946be7af215e5699184e6aee3599427e47e97a9460d23d092ac6e027e0f",
+        "driver.py": "0d16750ad4bf0498d047f26214c005009d6f5f53c4be2f2ee25a14d398f79267",
+        "manifest.json": "592205796671c144f99dc1cd805fa3967d2d89ad481baf54eea0a024104ce511"
+      },
+      "path": "instruments/tektronix/mdo3040"
     },
     {
       "id": "instruments/tektronix/mso24",
       "name": "Tektronix MSO24",
       "vendor": "Tektronix",
       "vendor_slug": "tektronix",
+      "model": "mso24",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Tektronix 2 Series MSO oscilloscope (e.g. MSO24 200 MHz).",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/tektronix/mso24",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "c12a0d6a371751c98541616c443963384332d47ee3cefdd3cfa52fcad2b3db43",
-        "blocks.py": "3a4c73d8c2bae73f359f554ec4c728c7e0763ba0bf42a1d2793b6dc6ec0bcff2",
-        "manifest.json": "913a0b7063447e6bfd036c0635fddba5869f0ae2f2ef7fe202faec82d86c710a"
-      },
-      "provides": [
-        "devices/tektronix/mso24/acquire",
-        "devices/tektronix/mso24/channel",
-        "devices/tektronix/mso24/connect",
-        "devices/tektronix/mso24/measure",
-        "devices/tektronix/mso24/timebase",
-        "devices/tektronix/mso24/trigger"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Oscilosc\u00f3pio Tektronix MSO24",
-          "description": "Blocos de driver para oscilosc\u00f3pio de sinais mistos Tektronix S\u00e9rie 2 (MSO24)."
+          "name": "Osciloscópio Tektronix MSO24",
+          "description": "Blocos de driver para osciloscópio de sinais mistos Tektronix Série 2 (MSO24)."
         },
         "es": {
           "name": "Osciloscopio Tektronix MSO24",
-          "description": "Bloques de controlador para osciloscopio de se\u00f1ales mixtas Tektronix Serie 2 (MSO24)."
+          "description": "Bloques de controlador para osciloscopio de señales mixtas Tektronix Serie 2 (MSO24)."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "3a4c73d8c2bae73f359f554ec4c728c7e0763ba0bf42a1d2793b6dc6ec0bcff2",
+        "driver.py": "c12a0d6a371751c98541616c443963384332d47ee3cefdd3cfa52fcad2b3db43",
+        "manifest.json": "42243f1ccd71ee88abfeace825570075ae768b2d859fb279184f6472329bfcce"
+      },
+      "path": "instruments/tektronix/mso24"
     },
     {
       "id": "instruments/tektronix/tbs1062",
       "name": "Tektronix TBS1062",
       "vendor": "Tektronix",
       "vendor_slug": "tektronix",
+      "model": "tbs1062",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Tektronix TBS1062 oscilloscope. On teardown, stops acquisition.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/tektronix/tbs1062",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "9eafafca626299cf7198da83fde1e24e60edd7c90b21de5186ddea82f662e03d",
-        "blocks.py": "a06c88443dbc864f5c1cff11082f391cabd9a3b60735472d4f20ab321d04ccb2",
-        "manifest.json": "6551bab360fc06f865ebedf2c4d426847a80d41e73887185cb59051ba38b7fc2"
-      },
-      "provides": [
-        "devices/tektronix/tbs1062/acquire",
-        "devices/tektronix/tbs1062/channel",
-        "devices/tektronix/tbs1062/connect",
-        "devices/tektronix/tbs1062/timebase"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Oscilosc\u00f3pio Tektronix TBS1062",
-          "description": "Blocos de driver para oscilosc\u00f3pio digital de armazenamento Tektronix TBS1062."
+          "name": "Osciloscópio Tektronix TBS1062",
+          "description": "Blocos de driver para osciloscópio digital de armazenamento Tektronix TBS1062."
         },
         "es": {
           "name": "Osciloscopio Tektronix TBS1062",
           "description": "Bloques de controlador para osciloscopio digital de almacenamiento Tektronix TBS1062."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "a06c88443dbc864f5c1cff11082f391cabd9a3b60735472d4f20ab321d04ccb2",
+        "driver.py": "9eafafca626299cf7198da83fde1e24e60edd7c90b21de5186ddea82f662e03d",
+        "manifest.json": "d5a5516cb4edf919051577b2dde11225d5cb20621aecaa2985e52bc0d95389fa"
+      },
+      "path": "instruments/tektronix/tbs1062"
     },
     {
       "id": "instruments/thorlabs/lts200",
       "name": "Thorlabs LTS200",
       "vendor": "Thorlabs",
       "vendor_slug": "thorlabs",
+      "model": "lts200",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Thorlabs LTS200 Linear Stage.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/thorlabs/lts200",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "19c51c6fa95c7af7aa65549ec4ec77b4bd01e5d23ace3bca7283fdd840a63e9c",
-        "blocks.py": "b91d16612a2aba786d29769fde67b691320ff6916f58b4158a8ff8c9b856f603",
-        "manifest.json": "6cb8c21b0d3bd8c68ec6dd131fb4d1b02e366e8c3a9af30908ef4b16bb68665a"
-      },
-      "provides": [
-        "devices/thorlabs/lts200/connect",
-        "devices/thorlabs/lts200/move"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Est\u00e1gio de Transla\u00e7\u00e3o Thorlabs LTS200",
-          "description": "Blocos de driver para platina de transla\u00e7\u00e3o motorizada de longo curso Thorlabs LTS200."
+          "name": "Estágio de Translação Thorlabs LTS200",
+          "description": "Blocos de driver para platina de translação motorizada de longo curso Thorlabs LTS200."
         },
         "es": {
-          "name": "Etapa de Traslaci\u00f3n Thorlabs LTS200",
-          "description": "Bloques de controlador para platina de traslaci\u00f3n motorizada de largo recorrido Thorlabs LTS200."
+          "name": "Etapa de Traslación Thorlabs LTS200",
+          "description": "Bloques de controlador para platina de traslación motorizada de largo recorrido Thorlabs LTS200."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "b91d16612a2aba786d29769fde67b691320ff6916f58b4158a8ff8c9b856f603",
+        "driver.py": "19c51c6fa95c7af7aa65549ec4ec77b4bd01e5d23ace3bca7283fdd840a63e9c",
+        "manifest.json": "b04049c2b3ef96bf8e98395b422df68b15b5ecc35ee3dd9cf925d253b71dba78"
+      },
+      "path": "instruments/thorlabs/lts200"
     },
     {
       "id": "instruments/thorlabs/mdt69x",
       "name": "Thorlabs MDT69X",
       "vendor": "Thorlabs",
       "vendor_slug": "thorlabs",
+      "model": "mdt69x",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Thorlabs MDT693B/MDT694B Piezo Controller.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/thorlabs/mdt69x",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "a7fc1d893c3d0e36b40f46d588caa5723fa388e558d42d4af988232998e54268",
-        "blocks.py": "713ecff9001f44f2529be6ca8302e48c49881201672140d65e2e6e6ad48780db",
-        "manifest.json": "91d346e7b615b47d4044d846e28b45bdde6b58a4967892a3924fbf07c4dfda70"
-      },
-      "provides": [
-        "devices/thorlabs/mdt69x/connect",
-        "devices/thorlabs/mdt69x/set_voltage"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Controlador Piezoel\u00e9trico Thorlabs MDT693B/MDT694",
-          "description": "Blocos de driver para controlador de atuadores piezoel\u00e9tricos de 3 eixos Thorlabs MDT69X."
+          "name": "Controlador Piezoelétrico Thorlabs MDT693B/MDT694",
+          "description": "Blocos de driver para controlador de atuadores piezoelétricos de 3 eixos Thorlabs MDT69X."
         },
         "es": {
-          "name": "Controlador Piezoel\u00e9ctrico Thorlabs MDT693B/MDT694",
-          "description": "Bloques de controlador para controlador de actuadores piezoel\u00e9ctricos de 3 ejes Thorlabs MDT69X."
+          "name": "Controlador Piezoeléctrico Thorlabs MDT693B/MDT694",
+          "description": "Bloques de controlador para controlador de actuadores piezoeléctricos de 3 ejes Thorlabs MDT69X."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "713ecff9001f44f2529be6ca8302e48c49881201672140d65e2e6e6ad48780db",
+        "driver.py": "a7fc1d893c3d0e36b40f46d588caa5723fa388e558d42d4af988232998e54268",
+        "manifest.json": "1a42708db13fb0e580fc636fe204e1b455e3fcfe0afafa4b4bc45537a08360e8"
+      },
+      "path": "instruments/thorlabs/mdt69x"
     },
     {
       "id": "instruments/thorlabs/pm100d",
       "name": "Thorlabs PM100D",
       "vendor": "Thorlabs",
       "vendor_slug": "thorlabs",
+      "model": "pm100d",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Thorlabs Optical Power Meter.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/thorlabs/pm100d",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "78067c600625f486ef71ccbee695aacbb945b2ebb16a0dd15256d4244cdd9d6e",
-        "blocks.py": "e868b30e75f32b45694c03ef33826b485765330f693af3532a843eb7030b94cc",
-        "manifest.json": "83117938ecf486173b3de6c4e0bdc6992f09bc54fabaed3f89fe899b599b5481"
-      },
-      "provides": [
-        "devices/thorlabs/pm100d/config",
-        "devices/thorlabs/pm100d/connect",
-        "devices/thorlabs/pm100d/read"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Medidor de Pot\u00eancia \u00d3ptica Thorlabs PM100D",
-          "description": "Blocos de driver para console digital de medi\u00e7\u00e3o de pot\u00eancia \u00f3ptica Thorlabs PM100D."
+          "name": "Medidor de Potência Óptica Thorlabs PM100D",
+          "description": "Blocos de driver para console digital de medição de potência óptica Thorlabs PM100D."
         },
         "es": {
-          "name": "Medidor de Potencia \u00d3ptica Thorlabs PM100D",
-          "description": "Bloques de controlador para consola digital de medici\u00f3n de potencia \u00f3ptica Thorlabs PM100D."
+          "name": "Medidor de Potencia Óptica Thorlabs PM100D",
+          "description": "Bloques de controlador para consola digital de medición de potencia óptica Thorlabs PM100D."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "e868b30e75f32b45694c03ef33826b485765330f693af3532a843eb7030b94cc",
+        "driver.py": "78067c600625f486ef71ccbee695aacbb945b2ebb16a0dd15256d4244cdd9d6e",
+        "manifest.json": "9226854d04634117ba6cc17b7dd4c63b8786d0993a75bfdd3cb98d8a1a604dbe"
+      },
+      "path": "instruments/thorlabs/pm100d"
     },
     {
       "id": "instruments/yokogawa/aq6370",
       "name": "Yokogawa AQ6370",
       "vendor": "Yokogawa",
       "vendor_slug": "yokogawa",
+      "model": "aq6370",
       "type": "instrument",
       "version": "1.0.0",
       "description": "Opens a VISA session to a Yokogawa AQ6370 Optical Spectrum Analyzer.",
       "author": "Paulo Felipe Jarschel",
-      "path": "instruments/yokogawa/aq6370",
+      "min_comfylab_version": "0.4.0",
       "files": [
-        "manifest.json",
+        "blocks.py",
         "driver.py",
-        "blocks.py"
+        "manifest.json"
       ],
-      "hashes": {
-        "driver.py": "5a1598f401022e09dccd52c652baef23764f3d6e40c788e2c600b6ab4bb0dbd5",
-        "blocks.py": "be8269f733576432cf098da1086c20fab7e39b624c44702a1acd4d5ca32c90d6",
-        "manifest.json": "549a423ccbdfb4258be57e5344fa3aadb400607f8b2b8b3ee2436b875ee2c53b"
-      },
-      "provides": [
-        "devices/yokogawa/aq6370/acquire",
-        "devices/yokogawa/aq6370/connect",
-        "devices/yokogawa/aq6370/sweep_and_acquire",
-        "devices/yokogawa/aq6370/sweep_config"
-      ],
-      "dependencies": [],
       "i18n": {
         "pt-BR": {
-          "name": "Analisador de Espectro \u00d3ptico Yokogawa AQ6370",
-          "description": "Blocos de driver para analisador de espectro \u00f3ptico (OSA) de alta resolu\u00e7\u00e3o Yokogawa AQ6370."
+          "name": "Analisador de Espectro Óptico Yokogawa AQ6370",
+          "description": "Blocos de driver para analisador de espectro óptico (OSA) de alta resolução Yokogawa AQ6370."
         },
         "es": {
-          "name": "Analizador de Espectro \u00d3ptico Yokogawa AQ6370",
-          "description": "Bloques de controlador para analizador de espectro \u00f3ptico (OSA) de alta resoluci\u00f3n Yokogawa AQ6370."
+          "name": "Analizador de Espectro Óptico Yokogawa AQ6370",
+          "description": "Bloques de controlador para analizador de espectro óptico (OSA) de alta resolución Yokogawa AQ6370."
         }
-      }
+      },
+      "hashes": {
+        "blocks.py": "be8269f733576432cf098da1086c20fab7e39b624c44702a1acd4d5ca32c90d6",
+        "driver.py": "5a1598f401022e09dccd52c652baef23764f3d6e40c788e2c600b6ab4bb0dbd5",
+        "manifest.json": "44cce2ba3cd9ec2038535444784c6686e675a8b6042358635ae93270e13599b1"
+      },
+      "path": "instruments/yokogawa/aq6370"
     }
   ],
   "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
-  "signature": "IrHbJonz/kq+miuAh4vuj1pgkfQ2AD7dRFVM9YlISSUxGFOl8wP8gm7Py6QudvyTxg2ROHihNt2COPTBYbJJCg=="
+  "signature": "8ymNiM7eO2owQxToQitcCSZ1alTNM4JStq4q33BQTsPOexDHxSPVj670nVfAAxIZnxzPmMa/MQRzdkDUbQpMDA=="
 }

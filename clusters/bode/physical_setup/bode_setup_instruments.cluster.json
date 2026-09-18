@@ -2,7 +2,7 @@
   "name": "Bode Setup Instruments",
   "type_name": "builtin/cluster/bode_setup_instruments",
   "category": "Clusters",
-  "icon": "\ud83d\udd0c",
+  "icon": "🔌",
   "display_name": "Bode Setup Instruments",
   "description": "Initializes Minipa function generator and Tektronix TBS1062 oscilloscope channels for Bode plot measurements.",
   "internal_blueprint": {
@@ -321,34 +321,34 @@
       }
     ]
   },
-  "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
-  "signature": "+Ccsl2bd8q1snqXPa7mEzZIiSbbzKN70ZiNofW6tX25tOOVDMZFrs/ffHwOmEx8Bt6BfOtYW5UGl9LpslcXBBA==",
   "i18n": {
     "pt-BR": {
-      "display_name": "Configurar Instrumentos F\u00edsicos Bode",
-      "description": "Inicializa o gerador de fun\u00e7\u00f5es Minipa e os canais do oscilosc\u00f3pio Tektronix TBS1062 para medi\u00e7\u00f5es de diagrama de Bode.",
+      "display_name": "Configurar Instrumentos Físicos Bode",
+      "description": "Inicializa o gerador de funções Minipa e os canais do osciloscópio Tektronix TBS1062 para medições de diagrama de Bode.",
       "category": "Clusters/Bode",
       "pins": {
         "In": "Entrada",
-        "Out": "Sa\u00edda",
-        "MinipaAddress": "Endere\u00e7oMinipa",
-        "ScopeAddress": "Endere\u00e7oOscilosc\u00f3pio",
+        "Out": "Saída",
+        "MinipaAddress": "EndereçoMinipa",
+        "ScopeAddress": "EndereçoOsciloscópio",
         "MinipaDevice": "DispositivoMinipa",
-        "ScopeDevice": "DispositivoOscilosc\u00f3pio"
+        "ScopeDevice": "DispositivoOsciloscópio"
       }
     },
     "es": {
-      "display_name": "Configurar Instrumentos F\u00edsicos Bode",
+      "display_name": "Configurar Instrumentos Físicos Bode",
       "description": "Inicializa el generador de funciones Minipa y los canales del osciloscopio Tektronix TBS1062 para mediciones de diagrama de Bode.",
       "category": "Clusters/Bode",
       "pins": {
         "In": "Entrada",
         "Out": "Salida",
-        "MinipaAddress": "Direcci\u00f3nMinipa",
-        "ScopeAddress": "Direcci\u00f3nOsciloscopio",
+        "MinipaAddress": "DirecciónMinipa",
+        "ScopeAddress": "DirecciónOsciloscopio",
         "MinipaDevice": "DispositivoMinipa",
         "ScopeDevice": "DispositivoOsciloscopio"
       }
     }
-  }
+  },
+  "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
+  "signature": "+Ccsl2bd8q1snqXPa7mEzZIiSbbzKN70ZiNofW6tX25tOOVDMZFrs/ffHwOmEx8Bt6BfOtYW5UGl9LpslcXBBA=="
 }

@@ -10,22 +10,23 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Controlador Piezoel\u00e9trico Thorlabs MDT693B/MDT694",
-      "description": "Blocos de driver para controlador de atuadores piezoel\u00e9tricos de 3 eixos Thorlabs MDT69X."
+      "name": "Controlador Piezoelétrico Thorlabs MDT693B/MDT694",
+      "description": "Blocos de driver para controlador de atuadores piezoelétricos de 3 eixos Thorlabs MDT69X."
     },
     "es": {
-      "name": "Controlador Piezoel\u00e9ctrico Thorlabs MDT693B/MDT694",
-      "description": "Bloques de controlador para controlador de actuadores piezoel\u00e9ctricos de 3 ejes Thorlabs MDT69X."
+      "name": "Controlador Piezoeléctrico Thorlabs MDT693B/MDT694",
+      "description": "Bloques de controlador para controlador de actuadores piezoeléctricos de 3 ejes Thorlabs MDT69X."
     }
   },
   "hashes": {
-    "driver.py": "a7fc1d893c3d0e36b40f46d588caa5723fa388e558d42d4af988232998e54268",
-    "blocks.py": "713ecff9001f44f2529be6ca8302e48c49881201672140d65e2e6e6ad48780db"
-  }
+    "blocks.py": "713ecff9001f44f2529be6ca8302e48c49881201672140d65e2e6e6ad48780db",
+    "driver.py": "a7fc1d893c3d0e36b40f46d588caa5723fa388e558d42d4af988232998e54268"
+  },
+  "path": "instruments/thorlabs/mdt69x"
 }

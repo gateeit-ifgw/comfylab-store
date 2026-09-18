@@ -10,22 +10,23 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
       "name": "Dispositivo NI-DAQmx National Instruments",
-      "description": "Blocos de driver para canais anal\u00f3gicos e digitais NI-DAQmx da National Instruments."
+      "description": "Blocos de driver para canais analógicos e digitais NI-DAQmx da National Instruments."
     },
     "es": {
       "name": "Dispositivo NI-DAQmx National Instruments",
-      "description": "Bloques de controlador para canales anal\u00f3gicos y digitales NI-DAQmx de National Instruments."
+      "description": "Bloques de controlador para canales analógicos y digitales NI-DAQmx de National Instruments."
     }
   },
   "hashes": {
-    "driver.py": "a97f16958deb9c2230c10e7c0cd2e80efc2e6562462399c81af925cc34c22ca5",
-    "blocks.py": "2ce5a4dfd21288d238a5194cbd82d25b80cc9c1fa5097ddec4370b1ca101fd80"
-  }
+    "blocks.py": "2ce5a4dfd21288d238a5194cbd82d25b80cc9c1fa5097ddec4370b1ca101fd80",
+    "driver.py": "a97f16958deb9c2230c10e7c0cd2e80efc2e6562462399c81af925cc34c22ca5"
+  },
+  "path": "instruments/ni/nidaqmx_device"
 }

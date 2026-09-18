@@ -10,14 +10,14 @@
   "author": "Paulo Felipe Jarschel",
   "min_comfylab_version": "0.4.0",
   "files": [
-    "manifest.json",
+    "blocks.py",
     "driver.py",
-    "blocks.py"
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Oscilosc\u00f3pio Tektronix TBS1062",
-      "description": "Blocos de driver para oscilosc\u00f3pio digital de armazenamento Tektronix TBS1062."
+      "name": "Osciloscópio Tektronix TBS1062",
+      "description": "Blocos de driver para osciloscópio digital de armazenamento Tektronix TBS1062."
     },
     "es": {
       "name": "Osciloscopio Tektronix TBS1062",
@@ -25,7 +25,8 @@
     }
   },
   "hashes": {
-    "driver.py": "9eafafca626299cf7198da83fde1e24e60edd7c90b21de5186ddea82f662e03d",
-    "blocks.py": "a06c88443dbc864f5c1cff11082f391cabd9a3b60735472d4f20ab321d04ccb2"
-  }
+    "blocks.py": "a06c88443dbc864f5c1cff11082f391cabd9a3b60735472d4f20ab321d04ccb2",
+    "driver.py": "9eafafca626299cf7198da83fde1e24e60edd7c90b21de5186ddea82f662e03d"
+  },
+  "path": "instruments/tektronix/tbs1062"
 }

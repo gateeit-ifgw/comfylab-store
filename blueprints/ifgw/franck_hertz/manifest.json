@@ -11,20 +11,21 @@
     "clusters/ifgw/franck_hertz"
   ],
   "files": [
-    "manifest.json",
-    "IFGW-F740_FranckHertz.json"
+    "IFGW-F740_FranckHertz.json",
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
       "name": "Experimento Franck-Hertz IFGW F-740",
-      "description": "Fluxo automatizado de medi\u00e7\u00e3o da curva de resson\u00e2ncia do merc\u00fario (Franck-Hertz) com gr\u00e1ficos em tempo real, monitoramento de limites de seguran\u00e7a e exporta\u00e7\u00e3o de dados."
+      "description": "Fluxo automatizado de medição da curva de ressonância do mercúrio (Franck-Hertz) com gráficos em tempo real, monitoramento de limites de segurança e exportação de dados."
     },
     "es": {
       "name": "Experimento Franck-Hertz IFGW F-740",
-      "description": "Flujo automatizado de medici\u00f3n de la curva de resonancia de mercurio (Franck-Hertz) con gr\u00e1ficos en tiempo real, monitoreo de l\u00edmites de seguridad y exportaci\u00f3n de datos."
+      "description": "Flujo automatizado de medición de la curva de resonancia de mercurio (Franck-Hertz) con gráficos en tiempo real, monitoreo de límites de seguridad y exportación de datos."
     }
   },
   "hashes": {
     "IFGW-F740_FranckHertz.json": "c8606a882cfe95de168c898c04d598b8037fd80ea49a155aa72633b413189a9b"
-  }
+  },
+  "path": "blueprints/ifgw/franck_hertz"
 }

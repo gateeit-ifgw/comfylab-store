@@ -2,7 +2,7 @@
   "name": "Bode Measure Point",
   "type_name": "builtin/cluster/bode_measure_point",
   "category": "Clusters",
-  "icon": "\ud83d\udcc8",
+  "icon": "📈",
   "display_name": "Bode Measure Point",
   "description": "Sets excitation frequency on Minipa generator, auto-adjusts scope timebase, acquires CH1/CH2, and calculates Gain (dB) and Vpp.",
   "internal_blueprint": {
@@ -474,26 +474,24 @@
       }
     ]
   },
-  "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
-  "signature": "QycrecWWT2LANkzAMIsRtZ2c4Wi78StJonz13/3a+iPoAbRrwhByk+YWpNab2xXIKqwZGH9eCaF2cdrNcQtGDQ==",
   "i18n": {
     "pt-BR": {
-      "display_name": "Medir Ponto F\u00edsico Bode",
-      "description": "Define a frequ\u00eancia no gerador Minipa, ajusta a base de tempo do oscilosc\u00f3pio, adquire CH1/CH2 e calcula Ganho (dB) e Vpp.",
+      "display_name": "Medir Ponto Físico Bode",
+      "description": "Define a frequência no gerador Minipa, ajusta a base de tempo do osciloscópio, adquire CH1/CH2 e calcula Ganho (dB) e Vpp.",
       "category": "Clusters/Bode",
       "pins": {
         "In": "Entrada",
-        "Out": "Sa\u00edda",
+        "Out": "Saída",
         "MinipaDevice": "DispositivoMinipa",
-        "ScopeDevice": "DispositivoOscilosc\u00f3pio",
-        "Frequency": "Frequ\u00eancia",
+        "ScopeDevice": "DispositivoOsciloscópio",
+        "Frequency": "Frequência",
         "Gain_dB": "Ganho_dB",
         "Vin_Vpp": "Vin_Vpp",
         "Vout_Vpp": "Vout_Vpp"
       }
     },
     "es": {
-      "display_name": "Medir Punto F\u00edsico Bode",
+      "display_name": "Medir Punto Físico Bode",
       "description": "Configura la frecuencia en el generador Minipa, ajusta la base de tiempo del osciloscopio, adquiere CH1/CH2 y calcula Ganancia (dB) y Vpp.",
       "category": "Clusters/Bode",
       "pins": {
@@ -507,5 +505,7 @@
         "Vout_Vpp": "Vout_Vpp"
       }
     }
-  }
+  },
+  "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
+  "signature": "QycrecWWT2LANkzAMIsRtZ2c4Wi78StJonz13/3a+iPoAbRrwhByk+YWpNab2xXIKqwZGH9eCaF2cdrNcQtGDQ=="
 }

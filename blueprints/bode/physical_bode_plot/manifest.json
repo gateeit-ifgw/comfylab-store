@@ -13,20 +13,21 @@
     "instruments/tektronix/tbs1062"
   ],
   "files": [
-    "manifest.json",
-    "Bode_Plot_Example.json"
+    "Bode_Plot_Example.json",
+    "manifest.json"
   ],
   "i18n": {
     "pt-BR": {
-      "name": "Medi\u00e7\u00e3o de Diagrama de Bode (F\u00edsica)",
-      "description": "Fluxo completo de medi\u00e7\u00e3o automatizada de resposta em frequ\u00eancia (Diagrama de Bode) usando Minipa MFG-4230 e Tektronix TBS-1062."
+      "name": "Medição de Diagrama de Bode (Física)",
+      "description": "Fluxo completo de medição automatizada de resposta em frequência (Diagrama de Bode) usando Minipa MFG-4230 e Tektronix TBS-1062."
     },
     "es": {
-      "name": "Medici\u00f3n de Diagrama de Bode (F\u00edsica)",
-      "description": "Flujo completo de medici\u00f3n automatizada de respuesta en frecuencia (Diagrama de Bode) usando Minipa MFG-4230 y Tektronix TBS-1062."
+      "name": "Medición de Diagrama de Bode (Física)",
+      "description": "Flujo completo de medición automatizada de respuesta en frecuencia (Diagrama de Bode) usando Minipa MFG-4230 y Tektronix TBS-1062."
     }
   },
   "hashes": {
     "Bode_Plot_Example.json": "0e4f9141a501214353bc235271290420830fab8b771f07145be22ddd28d444c1"
-  }
+  },
+  "path": "blueprints/bode/physical_bode_plot"
 }
