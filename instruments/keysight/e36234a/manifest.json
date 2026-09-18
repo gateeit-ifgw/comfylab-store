@@ -1,0 +1,17 @@
+{
+  "id": "instruments/keysight/e36234a",
+  "name": "Keysight E36234A",
+  "vendor": "Keysight Technologies",
+  "vendor_slug": "keysight",
+  "model": "e36234a",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Keysight E36234A DC Power Supply. On teardown, turns outputs OFF.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

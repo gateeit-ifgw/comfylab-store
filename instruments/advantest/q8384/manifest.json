@@ -1,0 +1,17 @@
+{
+  "id": "instruments/advantest/q8384",
+  "name": "Advantest Q8384",
+  "vendor": "Advantest",
+  "vendor_slug": "advantest",
+  "model": "q8384",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to an Advantest Q8384 Optical Spectrum Analyzer.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

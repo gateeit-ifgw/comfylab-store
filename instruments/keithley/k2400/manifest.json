@@ -1,0 +1,17 @@
+{
+  "id": "instruments/keithley/k2400",
+  "name": "Keithley 2400 SMU",
+  "vendor": "Keithley Instruments",
+  "vendor_slug": "keithley",
+  "model": "k2400",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Keithley 2400/2450 SMU. On teardown, turns output OFF.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

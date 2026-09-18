@@ -1,0 +1,17 @@
+{
+  "id": "instruments/agilent/a33220a",
+  "name": "Agilent 33220A",
+  "vendor": "Agilent Technologies",
+  "vendor_slug": "agilent",
+  "model": "a33220a",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to an Agilent 33220A Function Generator. On teardown, turns output OFF.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

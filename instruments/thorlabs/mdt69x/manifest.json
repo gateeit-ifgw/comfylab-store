@@ -1,0 +1,17 @@
+{
+  "id": "instruments/thorlabs/mdt69x",
+  "name": "Thorlabs MDT69X",
+  "vendor": "Thorlabs",
+  "vendor_slug": "thorlabs",
+  "model": "mdt69x",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Thorlabs MDT693B/MDT694B Piezo Controller.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

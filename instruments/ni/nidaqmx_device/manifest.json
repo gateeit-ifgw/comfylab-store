@@ -1,0 +1,17 @@
+{
+  "id": "instruments/ni/nidaqmx_device",
+  "name": "NI DAQmx",
+  "vendor": "National Instruments",
+  "vendor_slug": "ni",
+  "model": "nidaqmx_device",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Initializes an NI-DAQmx hardware session (e.g.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

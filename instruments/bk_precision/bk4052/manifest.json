@@ -1,0 +1,17 @@
+{
+  "id": "instruments/bk_precision/bk4052",
+  "name": "BK Precision 4052",
+  "vendor": "BK Precision",
+  "vendor_slug": "bk_precision",
+  "model": "bk4052",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a BK Precision 4052 function generator. On teardown, disables output.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

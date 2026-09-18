@@ -1,0 +1,17 @@
+{
+  "id": "instruments/tektronix/tbs1062",
+  "name": "Tektronix TBS1062",
+  "vendor": "Tektronix",
+  "vendor_slug": "tektronix",
+  "model": "tbs1062",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Tektronix TBS1062 oscilloscope. On teardown, stops acquisition.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

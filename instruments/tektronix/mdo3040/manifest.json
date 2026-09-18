@@ -1,0 +1,17 @@
+{
+  "id": "instruments/tektronix/mdo3040",
+  "name": "Tektronix MDO3040",
+  "vendor": "Tektronix",
+  "vendor_slug": "tektronix",
+  "model": "mdo3040",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Tektronix MDO3040 oscilloscope / RF spectrum analyzer.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

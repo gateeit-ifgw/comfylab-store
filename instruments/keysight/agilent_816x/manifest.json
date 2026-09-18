@@ -1,0 +1,17 @@
+{
+  "id": "instruments/keysight/agilent_816x",
+  "name": "Keysight 816x",
+  "vendor": "Keysight Technologies",
+  "vendor_slug": "keysight",
+  "model": "agilent_816x",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Keysight 816x Lightwave Mainframe. On teardown, turns laser output OFF.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

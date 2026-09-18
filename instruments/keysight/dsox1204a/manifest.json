@@ -1,0 +1,17 @@
+{
+  "id": "instruments/keysight/dsox1204a",
+  "name": "Keysight DSOX 1204A",
+  "vendor": "Keysight Technologies",
+  "vendor_slug": "keysight",
+  "model": "dsox1204a",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Keysight InfiniiVision DSOX 1204A 4-channel oscilloscope.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

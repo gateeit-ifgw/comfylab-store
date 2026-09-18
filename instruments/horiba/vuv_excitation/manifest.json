@@ -1,0 +1,17 @@
+{
+  "id": "instruments/horiba/vuv_excitation",
+  "name": "Horiba VUV Monochromator",
+  "vendor": "Horiba",
+  "vendor_slug": "horiba",
+  "model": "vuv_excitation",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a session to a Horiba VUV Monochromator system via ActiveX/COM or simulation.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

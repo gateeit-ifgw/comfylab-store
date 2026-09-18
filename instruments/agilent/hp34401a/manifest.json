@@ -1,0 +1,17 @@
+{
+  "id": "instruments/agilent/hp34401a",
+  "name": "HP 34401A DMM",
+  "vendor": "Agilent Technologies",
+  "vendor_slug": "agilent",
+  "model": "hp34401a",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to an HP / Agilent 34401A 6\u00bd Digit Multimeter.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

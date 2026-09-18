@@ -1,0 +1,17 @@
+{
+  "id": "instruments/tektronix/mso24",
+  "name": "Tektronix MSO24",
+  "vendor": "Tektronix",
+  "vendor_slug": "tektronix",
+  "model": "mso24",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Tektronix 2 Series MSO oscilloscope (e.g. MSO24 200 MHz).",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

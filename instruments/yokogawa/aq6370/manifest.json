@@ -1,0 +1,17 @@
+{
+  "id": "instruments/yokogawa/aq6370",
+  "name": "Yokogawa AQ6370",
+  "vendor": "Yokogawa",
+  "vendor_slug": "yokogawa",
+  "model": "aq6370",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Yokogawa AQ6370 Optical Spectrum Analyzer.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

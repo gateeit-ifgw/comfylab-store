@@ -1,0 +1,17 @@
+{
+  "id": "instruments/caen/dt5720b",
+  "name": "CAEN DT5720B Digitizer",
+  "vendor": "CAEN",
+  "vendor_slug": "caen",
+  "model": "dt5720b",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a connection to a CAEN DT5720B digitizer via USB or Optical Link.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

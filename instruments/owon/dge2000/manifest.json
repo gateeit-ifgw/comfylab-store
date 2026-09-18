@@ -1,0 +1,17 @@
+{
+  "id": "instruments/owon/dge2000",
+  "name": "Owon DGE2000",
+  "vendor": "OWON",
+  "vendor_slug": "owon",
+  "model": "dge2000",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to an Owon DGE2000 function generator. On teardown, disables output.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

@@ -1,0 +1,52 @@
+name: Validate and Sign Store Packages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  validate-and-sign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout store repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install cryptography
+        run: pip install cryptography
+
+      - name: Validate and Rebuild Catalog
+        run: |
+          python3 -c '
+          import json, hashlib
+          from pathlib import Path
+
+          root = Path(".")
+          catalog_file = root / "catalog.json"
+          if not catalog_file.exists():
+              print("catalog.json not found, skipping verification")
+              exit(0)
+
+          catalog = json.loads(catalog_file.read_text())
+          print(f"Validating {len(catalog.get(\"packages\", []))} packages...")
+          
+          for pkg in catalog.get("packages", []):
+              pkg_dir = root / pkg["path"]
+              assert pkg_dir.exists(), f"Missing directory: {pkg_dir}"
+              for f, expected_hash in pkg.get("hashes", {}).items():
+                  target = pkg_dir / f
+                  assert target.exists(), f"Missing file: {target}"
+                  actual_hash = hashlib.sha256(target.read_bytes()).hexdigest()
+                  assert actual_hash == expected_hash, f"Hash mismatch for {target}"
+
+          print("All packages verified successfully!")
+          '

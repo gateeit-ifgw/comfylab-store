@@ -1,0 +1,17 @@
+{
+  "id": "instruments/agilent/e4407b",
+  "name": "Agilent E4407B",
+  "vendor": "Agilent Technologies",
+  "vendor_slug": "agilent",
+  "model": "e4407b",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to an Agilent E4407B / ESA Series Electrical Spectrum Analyzer.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

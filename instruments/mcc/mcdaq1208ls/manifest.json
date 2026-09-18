@@ -1,0 +1,17 @@
+{
+  "id": "instruments/mcc/mcdaq1208ls",
+  "name": "MCC USB-1208LS",
+  "vendor": "Measurement Computing (MCC)",
+  "vendor_slug": "mcc",
+  "model": "mcdaq1208ls",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to an MCC USB-1208LS DAQ module.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

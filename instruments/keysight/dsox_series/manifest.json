@@ -1,0 +1,17 @@
+{
+  "id": "instruments/keysight/dsox_series",
+  "name": "Keysight DSO-X",
+  "vendor": "Keysight Technologies",
+  "vendor_slug": "keysight",
+  "model": "dsox_series",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Keysight InfiniiVision DSO-X 3000/2000/1000 oscilloscope.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

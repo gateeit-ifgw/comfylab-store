@@ -1,0 +1,603 @@
+{
+  "schema_version": "1.0",
+  "store_name": "ComfyLAB Official Store",
+  "official_public_key": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
+  "categories": [
+    "instruments",
+    "blocks",
+    "clusters",
+    "blueprints"
+  ],
+  "packages": [
+    {
+      "id": "instruments/advantest/q8384",
+      "name": "Advantest Q8384",
+      "vendor": "Advantest",
+      "vendor_slug": "advantest",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to an Advantest Q8384 Optical Spectrum Analyzer.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/advantest/q8384",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "67913eda3ceea86055f52fb836d009fee3315562d3103a0add9a316334b64e30",
+        "driver.py": "663c7c43dff9c7603f9768f15ec88162d056bab7109bac2145c258d5ae202860",
+        "blocks.py": "9045e6de708164bd5c4f8848cc74e728956b500b55be1c10eff24bb60ef38d62"
+      }
+    },
+    {
+      "id": "instruments/agilent/a33220a",
+      "name": "Agilent 33220A",
+      "vendor": "Agilent Technologies",
+      "vendor_slug": "agilent",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to an Agilent 33220A Function Generator. On teardown, turns output OFF.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/agilent/a33220a",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "f108bb7fb62fe740b75cc1c605752e39a780fc6906f1bc4a22c5f7db9283be2e",
+        "driver.py": "b23b75a27cff0f5ff004720d7bc5b2a0a4fe47ed94a78e6560a95589058cb3bc",
+        "blocks.py": "3424225e347c0533fbc91288895fc6176c33a2602e93bb74dd5fd8f54de05388"
+      }
+    },
+    {
+      "id": "instruments/agilent/e4407b",
+      "name": "Agilent E4407B",
+      "vendor": "Agilent Technologies",
+      "vendor_slug": "agilent",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to an Agilent E4407B / ESA Series Electrical Spectrum Analyzer.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/agilent/e4407b",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "302382882c2c30e442aeb7a3681ddcd0bd34bba7ab407db13b8684f7700957ee",
+        "driver.py": "9e4adf52bffd22164503454fc8a9ed7336ac981eb205cb16f6f449fa776e54fa",
+        "blocks.py": "53d99321b3c9f87ab36ac2fd14f4a3b4bc66a3db33533c42e433132fe8fa5053"
+      }
+    },
+    {
+      "id": "instruments/agilent/hp34401a",
+      "name": "HP 34401A DMM",
+      "vendor": "Agilent Technologies",
+      "vendor_slug": "agilent",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to an HP / Agilent 34401A 6\u00bd Digit Multimeter.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/agilent/hp34401a",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "654ab664de541a54c92aee409435b1111992b4bfd20680261d581a0efbdcbe08",
+        "driver.py": "9bf48de7975c85ea0a12e297a94b215001db592c9b91bedaacd095d68914f863",
+        "blocks.py": "beb3e0d32ea82149488cd875d1e29376a1ddcd396a9adc187af78ebeb8f47cc8"
+      }
+    },
+    {
+      "id": "instruments/bk_precision/bk4052",
+      "name": "BK Precision 4052",
+      "vendor": "BK Precision",
+      "vendor_slug": "bk_precision",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a BK Precision 4052 function generator. On teardown, disables output.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/bk_precision/bk4052",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "ea972c19bf650f8eb3fc15bc35e71d6a89f5db32913f6ff1d97b951119e5bd98",
+        "driver.py": "1f1eb9e83a072a0db52c20ab8232fbf2160af8bebb4bda9ab0bbc27a452dcbf7",
+        "blocks.py": "67417de865489f2c3f58b14e6f0557ac59791f4afabb7a8cbdd64548ef383c2d"
+      }
+    },
+    {
+      "id": "instruments/caen/dt5720b",
+      "name": "CAEN DT5720B Digitizer",
+      "vendor": "CAEN",
+      "vendor_slug": "caen",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a connection to a CAEN DT5720B digitizer via USB or Optical Link.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/caen/dt5720b",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "943b3fc0c3aec8627786519ac751b7fe2408cdb3be6aa4dd75d25d390f1b3227",
+        "driver.py": "570e311c3f9f449081e2625df471544864a85d523e925616dbfa266140451c81",
+        "blocks.py": "475a1eba4b0fd0948dd6d229f4caea2b19e64af05327174c24ee8a2a6f34f2c6"
+      }
+    },
+    {
+      "id": "instruments/coherent/ws1000a",
+      "name": "Coherent WaveShaper 1000A",
+      "vendor": "Coherent",
+      "vendor_slug": "coherent",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a connection to a Coherent / Finisar WaveShaper 1000A Optical Filter via its embedded HTTP web API.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/coherent/ws1000a",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "5543ee8b13cdd9d89e3694764c5a4d22f8bafc30914d5356fd803e7582db2a35",
+        "driver.py": "65e5570a95678c37d9a59db5b27f1c1ef892291aa68ab59567c2a27a7ea4aff9",
+        "blocks.py": "8b9c673ac235419b49116de351671a4c82959ccf8b0e2b1c8826308d6f4415ad"
+      }
+    },
+    {
+      "id": "instruments/horiba/vuv_excitation",
+      "name": "Horiba VUV Monochromator",
+      "vendor": "Horiba",
+      "vendor_slug": "horiba",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a session to a Horiba VUV Monochromator system via ActiveX/COM or simulation.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/horiba/vuv_excitation",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "e069b09256ac2c5bb8722c9fcca4404f43328f367e9c9c51cfa961df6912c2ed",
+        "driver.py": "7537b1871627debab229d97c6dfdba4a4c2c8b5a94ba01d0214997245810522c",
+        "blocks.py": "e7354dd7eec40c74f38dc8ab2899cf11e0af3132c2bb20563ed5d9244b9e6323"
+      }
+    },
+    {
+      "id": "instruments/keithley/k2231a",
+      "name": "Keithley 2231A",
+      "vendor": "Keithley Instruments",
+      "vendor_slug": "keithley",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Keithley 2231A-30-3 DC Power Supply. On teardown, turns outputs OFF.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/keithley/k2231a",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "8c5aa5fe88cf9102d5950137d442dce0db6d5238a27b43370c3d1ef68a592545",
+        "driver.py": "b1c7ba058f0fc12072805a80f51dcbed7fb988f1c80532914c4e4817ab040583",
+        "blocks.py": "98a1b8d2011ed236e56648d0711f20c55d6ede72985fa223126ff728d2d317a7"
+      }
+    },
+    {
+      "id": "instruments/keithley/k2400",
+      "name": "Keithley 2400 SMU",
+      "vendor": "Keithley Instruments",
+      "vendor_slug": "keithley",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Keithley 2400/2450 SMU. On teardown, turns output OFF.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/keithley/k2400",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "37b9a648574f2b2dc7b2ad196feec328d9133d5a39bf0a2f6da360e157967326",
+        "driver.py": "961b1fe70f4b7d53f9a80d765cb35dd363cc1729b4ec50b72aa6b37d291ef86f",
+        "blocks.py": "9d263dcfaa8bf00f2bdac10037cf53dfe5756456749822303fb4a50e61e901d0"
+      }
+    },
+    {
+      "id": "instruments/keopsys/edfa",
+      "name": "Keopsys EDFA",
+      "vendor": "Keopsys",
+      "vendor_slug": "keopsys",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Keopsys EDFA. On teardown, turns pump diode OFF.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/keopsys/edfa",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "af06dd72333ef0812e7cfbb76bd2db76577c77adb4819ac08c50becaeee55215",
+        "driver.py": "939b1b1cc8b0781c04a191d7703896db210740cdf891dda35bc020563cd9e759",
+        "blocks.py": "b25cba5b63b8479058368df3e4a38eab7749f41ec141b1d30f6649d6b46d0546"
+      }
+    },
+    {
+      "id": "instruments/keysight/agilent_816x",
+      "name": "Keysight 816x",
+      "vendor": "Keysight Technologies",
+      "vendor_slug": "keysight",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Keysight 816x Lightwave Mainframe. On teardown, turns laser output OFF.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/keysight/agilent_816x",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "11fdfdb145439508de89671ca0d87eb71b2e61b625753000906d940dbfd8a787",
+        "driver.py": "40f13ebe8c50ce5162239c279083b30a162d79395b6f515ca493b79828bf772f",
+        "blocks.py": "88bf53e04963a182d5a04a783cc640e30a391dd64ca3e23d8c4de39f523fefed"
+      }
+    },
+    {
+      "id": "instruments/keysight/dsox1204a",
+      "name": "Keysight DSOX 1204A",
+      "vendor": "Keysight Technologies",
+      "vendor_slug": "keysight",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Keysight InfiniiVision DSOX 1204A 4-channel oscilloscope.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/keysight/dsox1204a",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "3b71263d8759cbaec419e7658cd1f38cc0be87c7e1418a7759352a54e1345db1",
+        "driver.py": "a9b848ef7611029319bb43c9f88fdc4e986071d7daf3a8cc6b7827e163923eb6",
+        "blocks.py": "79112750f16da3463f575ba0c3ca51a64fcba38003ac2f59d04bb04e2d8dd546"
+      }
+    },
+    {
+      "id": "instruments/keysight/dsox3024a",
+      "name": "Keysight DSOX 3024A",
+      "vendor": "Keysight Technologies",
+      "vendor_slug": "keysight",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Keysight InfiniiVision DSOX 3024A 4-channel oscilloscope.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/keysight/dsox3024a",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "a2de01c7eaa61d89ecd32a19c4bcf90b264cc7f069bf6bc6679fb617e4965ce4",
+        "driver.py": "8dee5eb29d6e0c2b8b7e2495532573d534692ec324a7c761b2f53808b2254cde",
+        "blocks.py": "506f29b494e0911369bb6874bde5344b0b38a9efbfefae27749df7aa580878cd"
+      }
+    },
+    {
+      "id": "instruments/keysight/dsox_series",
+      "name": "Keysight DSO-X",
+      "vendor": "Keysight Technologies",
+      "vendor_slug": "keysight",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Keysight InfiniiVision DSO-X 3000/2000/1000 oscilloscope.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/keysight/dsox_series",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "7cf533850798f3cf65010eadc7c8bd3e527c88ede93855fd2e50a961df2f12b4",
+        "driver.py": "739e04cb6afde9e85f969180eac14a7b72ad4fa1b7b36e4671391eb6ba39c866",
+        "blocks.py": "ce3a7a61139f95e7aa6ab421fe5ab2511780937bdf02b623302d79e2db13d467"
+      }
+    },
+    {
+      "id": "instruments/keysight/e36234a",
+      "name": "Keysight E36234A",
+      "vendor": "Keysight Technologies",
+      "vendor_slug": "keysight",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Keysight E36234A DC Power Supply. On teardown, turns outputs OFF.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/keysight/e36234a",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "ff3382a9a1d7c2c948bc98e9cbe1464d4aad8edae06fd53ad494411b5c66f12d",
+        "driver.py": "2e6452161735477491ec36f387ae20de59a56bb9895262b2c146f2285c3a33f3",
+        "blocks.py": "8e5e607ca9500222a80bf2978c51bc17b9d8e78dd6c46e9e4109164ccdeef2b7"
+      }
+    },
+    {
+      "id": "instruments/mcc/mcdaq1208ls",
+      "name": "MCC USB-1208LS",
+      "vendor": "Measurement Computing (MCC)",
+      "vendor_slug": "mcc",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to an MCC USB-1208LS DAQ module.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/mcc/mcdaq1208ls",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "0db8ec7c47739b81e5a9a6dd8f8d6505f1225cfb07587c9b6c148aa7d81e9034",
+        "driver.py": "03ea004596cd457aa05a78b38a53e4b6a9e37887d7d435a248b353f4d7df32da",
+        "blocks.py": "5d76766e94fa047222cf5ca94e1ed943f4fde98fae3ce1e0aabf1c167da98ab7"
+      }
+    },
+    {
+      "id": "instruments/minipa/mfg4230",
+      "name": "Minipa MFG-4230",
+      "vendor": "Minipa",
+      "vendor_slug": "minipa",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Minipa MFG-4230 function generator. On teardown, disables output.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/minipa/mfg4230",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "af63f22e0165997cad39edac5155b79d1206bffff3829bb4a13aff222ba3ad9e",
+        "driver.py": "a1f4dab3f50393b29d36207c898ddc6eb0c1b9189ae696ba229bcb7bc84dd1b5",
+        "blocks.py": "913b80c05e1f41d9da7e97774c9488caba79785500181467600abcdbba02147d"
+      }
+    },
+    {
+      "id": "instruments/ni/nidaqmx_device",
+      "name": "NI DAQmx",
+      "vendor": "National Instruments",
+      "vendor_slug": "ni",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Initializes an NI-DAQmx hardware session (e.g.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/ni/nidaqmx_device",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "c243605c5358d9947f2ed552465ff3c3fffcd3cf0e5f459776d0367c8bf319ff",
+        "driver.py": "a97f16958deb9c2230c10e7c0cd2e80efc2e6562462399c81af925cc34c22ca5",
+        "blocks.py": "2ce5a4dfd21288d238a5194cbd82d25b80cc9c1fa5097ddec4370b1ca101fd80"
+      }
+    },
+    {
+      "id": "instruments/owon/dge2000",
+      "name": "Owon DGE2000",
+      "vendor": "OWON",
+      "vendor_slug": "owon",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to an Owon DGE2000 function generator. On teardown, disables output.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/owon/dge2000",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "faecb0f8af839e0d8462196a1ce8f80e6a957a39143d4c5971a44c4c76e38e61",
+        "driver.py": "2b90d7f4c5c7d14ec56c9d741a0c38adef958b92a6f2c954107418a91a86b2f6",
+        "blocks.py": "7928352f7453e0f6e604ca8961df35ad93f5f192a3e6b92b187e6b3b5783275c"
+      }
+    },
+    {
+      "id": "instruments/srs/sr830",
+      "name": "SRS SR830",
+      "vendor": "Stanford Research Systems",
+      "vendor_slug": "srs",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to an SRS SR830/SR850/SR860 Lock-In Amplifier.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/srs/sr830",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "264873345a438f6a9162e67a38bf8480482b5b0523e7e4ecc7db7166a1808164",
+        "driver.py": "2c9ff0a0ac18e1dd4ee6716416bc6fa89eb80e473b9db1acd924d9917863a4f7",
+        "blocks.py": "3e02d285075e1982fb0f4a9fdd6df52c5043b5c7319aad2c5ff5c4613a9b27f8"
+      }
+    },
+    {
+      "id": "instruments/tektronix/mdo3040",
+      "name": "Tektronix MDO3040",
+      "vendor": "Tektronix",
+      "vendor_slug": "tektronix",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Tektronix MDO3040 oscilloscope / RF spectrum analyzer.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/tektronix/mdo3040",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "2b26ff19bb2208a34df254a66f619a9ce1c079dc4745d73cae61660b669162e8",
+        "driver.py": "0d16750ad4bf0498d047f26214c005009d6f5f53c4be2f2ee25a14d398f79267",
+        "blocks.py": "c435b946be7af215e5699184e6aee3599427e47e97a9460d23d092ac6e027e0f"
+      }
+    },
+    {
+      "id": "instruments/tektronix/mso24",
+      "name": "Tektronix MSO24",
+      "vendor": "Tektronix",
+      "vendor_slug": "tektronix",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Tektronix 2 Series MSO oscilloscope (e.g. MSO24 200 MHz).",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/tektronix/mso24",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "cd42cf3dde45d09b4dd2794f32933d3f161dc2801d3085490589603220da3db4",
+        "driver.py": "c12a0d6a371751c98541616c443963384332d47ee3cefdd3cfa52fcad2b3db43",
+        "blocks.py": "3a4c73d8c2bae73f359f554ec4c728c7e0763ba0bf42a1d2793b6dc6ec0bcff2"
+      }
+    },
+    {
+      "id": "instruments/tektronix/tbs1062",
+      "name": "Tektronix TBS1062",
+      "vendor": "Tektronix",
+      "vendor_slug": "tektronix",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Tektronix TBS1062 oscilloscope. On teardown, stops acquisition.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/tektronix/tbs1062",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "a14c8cb71ada8845948a65ce220bee1ab619e41c1ba1bbf210090c7c9f72e456",
+        "driver.py": "9eafafca626299cf7198da83fde1e24e60edd7c90b21de5186ddea82f662e03d",
+        "blocks.py": "a06c88443dbc864f5c1cff11082f391cabd9a3b60735472d4f20ab321d04ccb2"
+      }
+    },
+    {
+      "id": "instruments/thorlabs/lts200",
+      "name": "Thorlabs LTS200",
+      "vendor": "Thorlabs",
+      "vendor_slug": "thorlabs",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Thorlabs LTS200 Linear Stage.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/thorlabs/lts200",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "16df82e66536cf1c178b9be6efbbab419ebd6ed37c7b22bffa46ab401383875c",
+        "driver.py": "19c51c6fa95c7af7aa65549ec4ec77b4bd01e5d23ace3bca7283fdd840a63e9c",
+        "blocks.py": "b91d16612a2aba786d29769fde67b691320ff6916f58b4158a8ff8c9b856f603"
+      }
+    },
+    {
+      "id": "instruments/thorlabs/mdt69x",
+      "name": "Thorlabs MDT69X",
+      "vendor": "Thorlabs",
+      "vendor_slug": "thorlabs",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Thorlabs MDT693B/MDT694B Piezo Controller.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/thorlabs/mdt69x",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "a3fe9613a39744cfe0f198e1868c8603f462f5105f486fbc453e22b7c20d96f2",
+        "driver.py": "a7fc1d893c3d0e36b40f46d588caa5723fa388e558d42d4af988232998e54268",
+        "blocks.py": "713ecff9001f44f2529be6ca8302e48c49881201672140d65e2e6e6ad48780db"
+      }
+    },
+    {
+      "id": "instruments/thorlabs/pm100d",
+      "name": "Thorlabs PM100D",
+      "vendor": "Thorlabs",
+      "vendor_slug": "thorlabs",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Thorlabs Optical Power Meter.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/thorlabs/pm100d",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "8b46aaf938445c6b279d2a32b81b056bbb9d59ae1d983cebd8f5c0f6c8cf9279",
+        "driver.py": "78067c600625f486ef71ccbee695aacbb945b2ebb16a0dd15256d4244cdd9d6e",
+        "blocks.py": "e868b30e75f32b45694c03ef33826b485765330f693af3532a843eb7030b94cc"
+      }
+    },
+    {
+      "id": "instruments/yokogawa/aq6370",
+      "name": "Yokogawa AQ6370",
+      "vendor": "Yokogawa",
+      "vendor_slug": "yokogawa",
+      "type": "instrument",
+      "version": "1.0.0",
+      "description": "Opens a VISA session to a Yokogawa AQ6370 Optical Spectrum Analyzer.",
+      "author": "Paulo Felipe Jarschel",
+      "path": "instruments/yokogawa/aq6370",
+      "files": [
+        "manifest.json",
+        "driver.py",
+        "blocks.py"
+      ],
+      "hashes": {
+        "manifest.json": "9ab6e8de758501b65828b7869d649c7ec82425f928da6571dcde33fc555ddddb",
+        "driver.py": "5a1598f401022e09dccd52c652baef23764f3d6e40c788e2c600b6ab4bb0dbd5",
+        "blocks.py": "be8269f733576432cf098da1086c20fab7e39b624c44702a1acd4d5ca32c90d6"
+      }
+    }
+  ],
+  "creator_identity": "3a61083b4c2ebce87fa7c250b3e64712a457315920952ce920dd8bd88509a022",
+  "signature": "P/Swux+uWtGh+1IHM39UVOcOACpahotWA0h+Ra8TZS5AC+EBvWusHZ3CLpZGtvGTI4DmY5qy2/6bkrzH6JZsBQ=="
+}

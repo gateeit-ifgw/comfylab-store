@@ -1,0 +1,17 @@
+{
+  "id": "instruments/minipa/mfg4230",
+  "name": "Minipa MFG-4230",
+  "vendor": "Minipa",
+  "vendor_slug": "minipa",
+  "model": "mfg4230",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Minipa MFG-4230 function generator. On teardown, disables output.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "instruments/keithley/k2231a",
+  "name": "Keithley 2231A",
+  "vendor": "Keithley Instruments",
+  "vendor_slug": "keithley",
+  "model": "k2231a",
+  "type": "instrument",
+  "version": "1.0.0",
+  "description": "Opens a VISA session to a Keithley 2231A-30-3 DC Power Supply. On teardown, turns outputs OFF.",
+  "author": "Paulo Felipe Jarschel",
+  "min_comfylab_version": "0.4.0",
+  "files": [
+    "manifest.json",
+    "driver.py",
+    "blocks.py"
+  ]
+}
